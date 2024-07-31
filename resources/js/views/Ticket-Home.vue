@@ -1,114 +1,459 @@
 <template>
-
-    <div id="home-top">
-            <div class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top">
-                <div class="container">
-                    <button class="navbar-toggler text-uppercase font-weight-bold bg-warning text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        Menu
-                        <i class="fas fa-bars"></i>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item mx-0 mx-lg-1">
-                                <a class="nav-link py-3 px-0 px-lg-3 rounded" href="">
-                                    <router-link to="/home" style="color: #fff !important;">
-                                    Home
-                                    </router-link>
-                                </a>
+    <div>
+        <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="img/logo.png" alt="SnapX Photography Template">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li class="has-sub">
+                                <a href="javascript:void(0)">Photos &amp; Videos</a>
+                                <ul class="sub-menu">
+                                    <li><a href="contests.html">Contests</a></li>
+                                    <li><a href="contest-details.html">Single Contest</a></li>
+                                </ul>
                             </li>
-                            <li class="nav-item mx-0 mx-lg-1">
-                                <a class="nav-link py-3 px-0 px-lg-3 rounded" href="">
-                                    <router-link to="/request" style="color: #fff !important;">
-                                    Submit a Request
-                                    </router-link>
-                                </a>
-                            </li>
-                            <li class="nav-item mx-0 mx-lg-1">
-                                <a class="nav-link py-3 px-0 px-lg-3 rounded" href="">
-                                    <router-link to="/followup" style="color: #fff !important;">
-                                    Track a Ticket
-                                    </router-link>
-                                </a>
-                            </li>
-                            <!-- <li class="nav-item mx-0 mx-lg-1">
-                                <a class="nav-link py-3 px-0 px-lg-3 rounded" href="">
-                                    <router-link to="/login" style="color: #fff !important;">
-                                    Technical
-                                    </router-link>
-                                </a>
-                            </li> -->
-                        </ul>
-                    </div>
+                            <li><a href="categories.html">Categories</a></li>
+                            <li><a href="users.html">Users</a></li>
+                        </ul>   
+                        <div class="border-button">
+                            <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Sign In/Up</a>
+                        </div>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
                 </div>
             </div>
-            <header class="masthead text-white text-center" style="background-color: #004A98 !important">
-                <div class="container d-flex align-items-center flex-column">
-                    <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="..." />
-                    <h1 class="masthead-heading text-uppercase mb-0">Ticket Management System</h1>
-                    <div class="divider-custom divider-light">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                        <div class="divider-custom-line"></div>
+        </div>
+        </header>
+        <!-- ***** Main Banner Area Start ***** -->
+        <div class="main-banner">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                <div class="header-text">
+                    <h2>Enter a world of <em>Photos</em> &amp; Amazing <em>Awards</em></h2>
+                    <p>SnapX Photography is a professional website template with 5 different HTML pages for maximum customizations. It is free for commercial usage. This Bootstrap v5.1.3 CSS layout is provided by TemplateMo Free CSS Templates.</p>
+                    <div class="buttons">
+                    <div class="big-border-button">
+                        <a href="contests.html">Explore SnapX Contest</a>
                     </div>
-                    <p class="masthead-subheading font-weight-light mb-0">Need help? Submit your request to our support teams</p>
-                    <br>
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-200 w-200">
-                        <div class="portfolio-item-caption-content text-center text-white">
-                            <b-button class="bg-warning">
-                            <router-link to="/request" style="color: #fff !important;">
-                                    Submit a Request
-                                </router-link>
-                            </b-button>
-                            
-                        </div>
+                    <div class="icon-button">
+                        <a href="https://youtube.com/templatemo" target="_blank"><i class="fa fa-play"></i> Watch Our Video Now</a>
+                    </div>
                     </div>
                 </div>
-            </header>
-            <section class="page-section portfolio" id="contact" style="color: #6c757d !important;">
-                <div class="container" style="color: #6c757d !important;">
-                    <h2 class="page-section-heading text-center text-uppercase text-secondary">Contact Us</h2>
-                    <div class="divider-custom" style="color: #6c757d !important;">
-                        <div class="divider-custom-line"></div>
-                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                        <div class="divider-custom-line"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-9 ms-auto">
-                            <p class="lead text-secondary">
-                            For concerns and/or feedback, you can email us at itu@stii.dost.gov.ph
-                            </p></div>
-                    </div>
                 </div>
-            </section>
-            <footer class="footer text-center">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 mb-5 mb-lg-0">
-                            <h4 class="text-uppercase mb-4">Location</h4>
-                            <p class="lead mb-0">
-                                DOST-STII Building
-                                <br />
-                                DOST Compound, Gen. Santos Avenue
-                                <br />
-                                Bicutan 1631, Taguig, Metro Manila
-                            </p>
+            </div>
+            </div>
+        </div>
+        <!-- ***** Main Banner Area End ***** -->
+
+
+        <section class="featured-items" id="featured-items">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
+                    <div class="item">
+                    <div class="thumb">
+                        <img src="img/featured-01.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <ul>
+                            <li><span>Contest Winner:</span> Vincent Adam</li>
+                            <li><span>Contest Author:</span> Anthony Soft</li>
+                            <li><span>Awards:</span> $1.000 + Camera Nikon</li>
+                            </ul>
                         </div>
-                        <div class="col-lg-6 mb-5 mb-lg-0">
-                            <h4 class="text-uppercase mb-4">Around the Web</h4>
-                            <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/dost.stii" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="https://stii.dost.gov.ph/" target="_blank"><i class="fab fa-fw fa-dribbble"></i></a>
                         </div>
                     </div>
+                    </div>
+                    <div class="item">
+                    <div class="thumb">
+                        <img src="img/featured-02.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Smile In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <ul>
+                            <li><span>Contest Winner:</span> Thomas Eddy</li>
+                            <li><span>Contest Author:</span> Anthony Soft</li>
+                            <li><span>Awards:</span> $1,200 + Canon EOS R7</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="thumb">
+                        <img src="img/featured-03.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Happy In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <ul>
+                            <li><span>Contest Winner:</span> Vincent Adam</li>
+                            <li><span>Contest Author:</span> Anthony Soft</li>
+                            <li><span>Awards:</span> $1,800 + Canon EOS R6</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="thumb">
+                        <img src="img/featured-01.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <ul>
+                            <li><span>Contest Winner:</span> Thomas Eddy</li>
+                            <li><span>Contest Author:</span> Anthony Soft</li>
+                            <li><span>Awards:</span> $8,400 + Canon EOS R1</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="thumb">
+                        <img src="img/featured-02.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Run In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <ul>
+                            <li><span>Contest Winner:</span> Vincent Adam</li>
+                            <li><span>Contest Author:</span> Anthony Soft</li>
+                            <li><span>Awards:</span> $5,500 + Canon EOS R3</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="thumb">
+                        <img src="img/featured-03.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Stay In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <ul>
+                            <li><span>Contest Winner:</span> Thomas Eddy</li>
+                            <li><span>Contest Author:</span> Anthony Soft</li>
+                            <li><span>Awards:</span> $4,400 + Canon EOS R5</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="thumb">
+                        <img src="img/featured-01.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <ul>
+                            <li><span>Contest Winner:</span> Vincent Adam</li>
+                            <li><span>Contest Author:</span> Anthony Soft</li>
+                            <li><span>Awards:</span> $3,800 + Canon EOS R6</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="thumb">
+                        <img src="img/featured-02.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Shoot In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <ul>
+                            <li><span>Contest Winner:</span> Vincent Adam</li>
+                            <li><span>Contest Author:</span> Anthony Soft</li>
+                            <li><span>Awards:</span> $2,400 + Canon EOS R7</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="thumb">
+                        <img src="img/featured-03.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Fly In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <ul>
+                            <li><span>Contest Winner:</span> Vincent Adam</li>
+                            <li><span>Contest Author:</span> Anthony Soft</li>
+                            <li><span>Awards:</span> $1,200 + Canon EOS R10</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-            </footer>
-                <FlashMessage></FlashMessage>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <section class="popular-categories">
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                <div class="section-heading">
+                    <h6>Our Categories</h6>
+                    <h4>Check Out <em>Popular</em> Contest <em>Categories</em></h4>
+                </div>
+                </div>
+                <div class="col-lg-6">
+                <div class="main-button">
+                    <a href="categories.html">Discover All Categories</a>
+                </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <div class="popular-item">
+                    <div class="top-content">
+                    <div class="icon">
+                        <img src="img/icon-01.png" alt="">
+                    </div>
+                    <div class="right">
+                        <h4>Nature Pic Contest</h4>
+                        <span><em>126</em> Available Contests</span>
+                    </div>
+                    </div>
+                    <div class="thumb">
+                    <img src="img/popular-01.png" alt="">
+                    <span class="category">Top Contest</span>
+                    <span class="likes"><i class="fa fa-heart"></i> 256</span>
+                    </div>
+                    <div class="border-button">
+                    <a href="contest-details.html">Browse Nature Pic Contests</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <div class="popular-item">
+                    <div class="top-content">
+                    <div class="icon">
+                        <img src="img/icon-02.png" alt="">
+                    </div>
+                    <div class="right">
+                        <h4>Random Pic Contest</h4>
+                        <span><em>116</em> Available Contests</span>
+                    </div>
+                    </div>
+                    <div class="thumb">
+                    <img src="img/popular-02.png" alt="">
+                    <span class="category">Top Contest</span>
+                    <span class="likes"><i class="fa fa-heart"></i> 256</span>
+                    </div>
+                    <div class="border-button">
+                    <a href="contest-details.html">Browse Random Pic Contests</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <div class="popular-item">
+                    <div class="top-content">
+                    <div class="icon">
+                        <img src="img/icon-03.png" alt="">
+                    </div>
+                    <div class="right">
+                        <h4>Portrait Pic Contest</h4>
+                        <span><em>164</em> Available Contests</span>
+                    </div>
+                    </div>
+                    <div class="thumb">
+                    <img src="img/popular-03.png" alt="">
+                    <span class="category">Top Contest</span>
+                    <span class="likes"><i class="fa fa-heart"></i> 256</span>
+                    </div>
+                    <div class="border-button">
+                    <a href="contest-details.html">Browse Portrait Pic Contests</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <div class="popular-item">
+                    <div class="top-content">
+                    <div class="icon">
+                        <img src="img/icon-04.png" alt="">
+                    </div>
+                    <div class="right">
+                        <h4>Space Pic Contest</h4>
+                        <span><em>135</em> Available Contests</span>
+                    </div>
+                    </div>
+                    <div class="thumb">
+                    <img src="img/popular-04.png" alt="">
+                    <span class="category">Top Contest</span>
+                    <span class="likes"><i class="fa fa-heart"></i> 256</span>
+                    </div>
+                    <div class="border-button">
+                    <a href="contest-details.html">Browse Space Pic Contests</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="closed-contests">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <h6>Closed Photography Contests</h6>
+                    <h4><em>Previous Contests</em> With Handpicked <em>Winners</em></h4>
+                </div>
+                </div>
+                <div class="col-lg-12">
+                <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
+                    <div class="item">
+                    <div class="closed-item">
+                        <div class="thumb">
+                        <img src="img/closed-01.jpg" alt="">
+                        <span class="winner"><em>Winner:</em> Anthony Soft</span>
+                        <span class="price"><em>Award :</em> $1,600</span>
+                        </div>
+                        <div class="down-content">
+                        <div class="row">
+                            <div class="col-7">
+                            <h4>88 Participants <br><span>Number Of Artists</span></h4>
+                            </div>
+                            <div class="col-5">
+                            <h4 class="pics">320 Pictures <br><span>Submited Pics</span></h4>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="closed-item">
+                        <div class="thumb">
+                        <img src="img/closed-02.jpg" alt="">
+                        <span class="winner"><em>Winner:</em> Anthony Soft</span>
+                        <span class="price"><em>Award :</em> $4,200</span>
+                        </div>
+                        <div class="down-content">
+                        <div class="row">
+                            <div class="col-7">
+                            <h4>96 Participants <br><span>Number Of Artists</span></h4>
+                            </div>
+                            <div class="col-5">
+                            <h4 class="pics">410 Pictures <br><span>Submited Pics</span></h4>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <div class="closed-item">
+                        <div class="thumb">
+                        <img src="img/closed-03.jpg" alt="">
+                        <span class="winner"><em>Winner:</em> Anthony Soft</span>
+                        <span class="price"><em>Award :</em> $3,200</span>
+                        </div>
+                        <div class="down-content">
+                        <div class="row">
+                            <div class="col-7">
+                            <h4>74 Participants <br><span>Number Of Artists</span></h4>
+                            </div>
+                            <div class="col-5">
+                            <h4 class="pics">284 Pictures <br><span>Submited Pics</span></h4>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-12">
+                <div class="border-button text-center">
+                    <a href="contests.html">Browse Open Contests</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="pricing-plans">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="section-heading text-center">
+                    <h6>Our Pricing</h6>
+                    <h4>Photography <em>Contest Plans</em> and Price <em>Awards</em></h4>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                <div class="pricing-item">
+                    <img src="img/pricing-01.jpg" alt="">
+                    <h4>Basic Plan</h4>
+                    <ul class="first-plan">
+                    <li>Lorem Ipsum Dolores Sonte</li>
+                    <li>Songe Lorem Ipsum Dol</li>
+                    <li>Matrios Venga Heptuss</li>
+                    <li>Denim Sriracha Kogi</li>
+                    <li>Digital Photography Awards</li>
+                    </ul>
+                    <span class="price">$25 USD</span>
+                    <div class="border-button">
+                    <a href="#">Choose This Plan</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                <div class="pricing-item">
+                    <img src="img/pricing-02.jpg" alt="">
+                    <h4>Standard Plan</h4>
+                    <ul class="second-plan">
+                    <li>Lorem Ipsum Dolores Sonte</li>
+                    <li>Songe Lorem Ipsum Dol</li>
+                    <li>Matrios Venga Heptuss</li>
+                    <li>Denim Sriracha Kogi</li>
+                    <li>Digital Photography Awards</li>
+                    </ul>
+                    <span class="price">$45 USD</span>
+                    <div class="border-button">
+                    <a href="#">Choose This Plan</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                <div class="pricing-item">
+                    <img src="img/pricing-03.jpg" alt="">
+                    <h4>Advanced Plan</h4>
+                    <ul class="third-plan">
+                    <li>Lorem Ipsum Dolores Sonte</li>
+                    <li>Songe Lorem Ipsum Dol</li>
+                    <li>Matrios Venga Heptuss</li>
+                    <li>Denim Sriracha Kogi</li>
+                    <li>Digital Photography Awards</li>
+                    </ul>
+                    <span class="price">$85 USD</span>
+                    <div class="border-button">
+                    <a href="#">Choose This Plan</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
     </div>
 </template>
 
 <style>
-    #sub-btn:hover{
-        color:rgb(233, 229, 229) !important;
-        box-shadow: 3px 5px #838486;
-    }
+
 </style>
 

@@ -7,17 +7,15 @@
         <title>DAMS_ver2</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-        <link href="{{ asset('css/app.css')}}" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="{{ asset('css/templatemo-lava.css')}}"/>
+        <link href="{{ asset('css/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
 
-        <!-- ADMIN TEMPLATE -->
-        <!-- <link rel="stylesheet" href="{{ asset('css/sb-admin-2.min.css')}}"/>
-        <link rel="stylesheet" href="{{ asset('css/dataTables.bootstrap4.min.css')}}"/> -->
-
-
-
+        <link href="{{ asset('css/assets/css/fontawesome.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/assets/css/templatemo-snapx-photography.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/assets/css/owl.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/assets/css/animate.css')}}" rel="stylesheet" type="text/css">
+        <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 
     </head>
     <body> 
@@ -29,20 +27,18 @@
         <script src="{{ asset('js/scripts2.js') }}"> </script>
         <script src="{{ asset('js/scripts.js') }}"> </script>
 
-        <!-- ADMIN TEMPLATE -->
-        <!-- <script src="{{ asset('js/jquery.dataTables.min.js') }}"> </script>
-        <script src="{{ asset('js/dataTables.bootstrap4.min.js') }}"> </script> -->
-        <!-- <script src="{{ asset('js/sb-admin-2.min.js') }}"> </script> -->
-
         
-        <!-- <script src="{{ asset('js/jquery-2.1.0.min.js') }}"> </script>
-        <script src="{{ asset('js/popper.js') }}"> </script>
-        <script src="{{ asset('js/bootstrap.min.js') }}"> </script>
+        <script src="{{ asset('css/vendor/jquery/jquery.min.js') }}"> </script>
+        <script src="{{ asset('css/vendor/bootstrap/js/bootstrap.min.js') }}"> </script>
+        <script src="{{ asset('css/vendor/bootstrap/js/bootstrap.min.js') }}"> </script>
+
+        <script src="{{ asset('js/isotope.min.js') }}"> </script>
         <script src="{{ asset('js/owl-carousel.js') }}"> </script>
-        <script src="{{ asset('js/scrollreveal.min.js') }}"> </script>
-        <script src="{{ asset('js/waypoints.min.js') }}"> </script>
-        <script src="{{ asset('js/jquery.counterup.min.js') }}"> </script>
-        <script src="{{ asset('js/imgfix.min.js') }}"> </script>
-        <script src="{{ asset('js/custom.js') }}"> </script> -->
+
+        <script src="{{ asset('js/tabs.js') }}"> </script>
+        <script src="{{ asset('js/popup.js') }}"> </script>
+        <script src="{{ asset('js/custom.js') }}"> </script>
+
+
     </body>
 </html>
