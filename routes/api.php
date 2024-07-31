@@ -34,57 +34,7 @@ Route::get('profile','UserController@getAuthenticatedUser');
 // USER 
 Route::resource('admin', 'AdminController');
 
-//DASHBOARD
 
-Route::post('/set-month', 'DashboardController@setMonth');
-Route::post('/set-year', 'DashboardController@setYear');
-Route::post('/setName', 'TicketController@setName');
-
-Route::get('/get-month', 'DashboardController@getMonth');
-Route::get('/get-year', 'DashboardController@getYear');
-
-Route::get('/get-material-request-age-bracket-female', 'DashboardController@getMaterialRequest_ageBracket_female');
-Route::get('/get-material-request-age-bracket-male', 'DashboardController@getMaterialRequest_ageBracket_male');
-Route::get('/get-material-request-client-type-female', 'DashboardController@getMaterialRequest_clientType_female');
-Route::get('/get-material-request-client-type-male', 'DashboardController@getMaterialRequest_clientType_male');
-Route::get('/get-material-request-client-category-female', 'DashboardController@getMaterialRequest_clientCategory_female');
-Route::get('/get-material-request-client-category-male', 'DashboardController@getMaterialRequest_clientCategory_male');
-Route::get('/get-material-request-region-female', 'DashboardController@getMaterialRequest_region_female');
-Route::get('/get-material-request-region-male', 'DashboardController@getMaterialRequest_region_male');
-Route::get('/get-material-request-client-researchInterests', 'DashboardController@getMaterialRequest_researchInterests');
-
-Route::get('get-research-interests', 'DashboardController@getResearchInterests');
-Route::get('get-topic-not-found', 'DashboardController@getTopicNotFound');
-
-Route::get('/get-sja-eventTitle-female', 'DashboardController@getSJA_eventTitle_female');
-Route::get('/get-sja-eventTitle-male', 'DashboardController@getSJA_eventTitle_male');
-
-Route::get('/get-sja-event-list', 'DashboardController@getSJA_eventList');
-Route::get('/get-sja-event-list-noDate', 'DashboardController@getSJA_eventListNoDate');
-
-Route::get('/get-sja-eventData-female', 'DashboardController@getSJA_eventData_female');
-Route::get('/get-sja-eventData-male', 'DashboardController@getSJA_eventData_male');
-
-Route::get('/get-starbooks-category-female', 'DashboardController@getSTARBOOKS_category_female');
-Route::get('/get-starbooks-category-male', 'DashboardController@getSTARBOOKS_category_male');
-
-Route::get('/get-starbooks-schoolType-female', 'DashboardController@getSTARBOOKS_schoolType_female');
-Route::get('/get-starbooks-schoolType-male', 'DashboardController@getSTARBOOKS_schoolType_male');
-Route::get('/get-starbooks-logbookList', 'DashboardController@getSTARBOOKS_logbookList');
-
-Route::get('/get-hr-trainings-list', 'DashboardController@getHR_trainingsList');
-Route::get('/get-hr-count-participants', 'DashboardController@getHR_countParticipants');
-Route::get('/get-hr-count-trainings', 'DashboardController@getHR_countTrainings');
-
-
-// EVENT
-Route::resource('event', 'EventController');
-Route::get('/event-speaker-data/{id}', 'EventController@loadEmployeeTraining');
-Route::get('/event-participants-data/{id}', 'EventController@loadEmployeeHealth');
-// SPEAKER
-Route::resource('speaker', 'SpeakerController');
-// PARTICIPANTS
-Route::resource('participants', 'ParticipantsController');
 
 // TICKET
 Route::resource('ticket', 'TicketController');
