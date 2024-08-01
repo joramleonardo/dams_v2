@@ -5,31 +5,27 @@
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img src="img/logo.png" alt="SnapX Photography Template">
+                            <img src="img/stii-logo-1.png" alt="SnapX Photography Template">
                         </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="index.html" class="active">Home</a></li>
                             <li class="has-sub">
-                                <a href="javascript:void(0)">Photos &amp; Videos</a>
+                                <a href="javascript:void(0)">Categories</a>
                                 <ul class="sub-menu">
                                     <li><a href="contests.html">Contests</a></li>
                                     <li><a href="contest-details.html">Single Contest</a></li>
                                 </ul>
                             </li>
-                            <li><a href="categories.html">Categories</a></li>
-                            <li><a href="users.html">Users</a></li>
+                            <li><a href="categories.html">Photos</a></li>
+                            <li><a href="categories.html">Videos</a></li>
                         </ul>   
-                        <div class="border-button">
+                        <!-- <div class="border-button">
                             <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Sign In/Up</a>
-                        </div>
+                        </div> -->
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
-                        <!-- ***** Menu End ***** -->
                     </nav>
                 </div>
             </div>
@@ -39,18 +35,11 @@
         <div class="main-banner">
             <div class="container">
             <div class="row">
-                <div class="col-lg-10 offset-lg-1">
+                <div class="col-lg-12 ">
                 <div class="header-text">
-                    <h2>Enter a world of <em>Photos</em> &amp; Amazing <em>Awards</em></h2>
-                    <p>SnapX Photography is a professional website template with 5 different HTML pages for maximum customizations. It is free for commercial usage. This Bootstrap v5.1.3 CSS layout is provided by TemplateMo Free CSS Templates.</p>
-                    <div class="buttons">
-                    <div class="big-border-button">
-                        <a href="contests.html">Explore SnapX Contest</a>
-                    </div>
-                    <div class="icon-button">
-                        <a href="https://youtube.com/templatemo" target="_blank"><i class="fa fa-play"></i> Watch Our Video Now</a>
-                    </div>
-                    </div>
+                    <h2><em>Digital Assets</em> Management System </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id molestie lorem. Ut massa est, ornare et tristique a, fringilla quis purus. Vivamus elit ligula, accumsan vitae venenatis sed, fringilla at nisi.</p>
+                    
                 </div>
                 </div>
             </div>
@@ -66,14 +55,13 @@
                 <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/featured-01.jpg" alt="">
+                        <img src="img/col/1.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <h4>Walk In The Nature</h4>
                             <ul>
-                            <li><span>Contest Winner:</span> Vincent Adam</li>
-                            <li><span>Contest Author:</span> Anthony Soft</li>
-                            <li><span>Awards:</span> $1.000 + Camera Nikon</li>
+                            <li><span>Category:</span> Secretaries</li>
+                            <li><span>Photographer:</span> Anthony Soft</li>
                             </ul>
                         </div>
                         </div>
@@ -81,14 +69,13 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/featured-02.jpg" alt="">
+                        <img src="img/col/2.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Smile In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <h4>Walk In The Nature</h4>
                             <ul>
-                            <li><span>Contest Winner:</span> Thomas Eddy</li>
-                            <li><span>Contest Author:</span> Anthony Soft</li>
-                            <li><span>Awards:</span> $1,200 + Canon EOS R7</li>
+                            <li><span>Category:</span> Secretaries</li>
+                            <li><span>Photographer:</span> Anthony Soft</li>
                             </ul>
                         </div>
                         </div>
@@ -96,14 +83,13 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/featured-03.jpg" alt="">
+                        <img src="img/col/3.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Happy In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <h4>Walk In The Nature</h4>
                             <ul>
-                            <li><span>Contest Winner:</span> Vincent Adam</li>
-                            <li><span>Contest Author:</span> Anthony Soft</li>
-                            <li><span>Awards:</span> $1,800 + Canon EOS R6</li>
+                            <li><span>Category:</span> Secretaries</li>
+                            <li><span>Photographer:</span> Anthony Soft</li>
                             </ul>
                         </div>
                         </div>
@@ -111,14 +97,13 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/featured-01.jpg" alt="">
+                        <img src="img/col/4.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <h4>Walk In The Nature</h4>
                             <ul>
-                            <li><span>Contest Winner:</span> Thomas Eddy</li>
-                            <li><span>Contest Author:</span> Anthony Soft</li>
-                            <li><span>Awards:</span> $8,400 + Canon EOS R1</li>
+                            <li><span>Category:</span> Secretaries</li>
+                            <li><span>Photographer:</span> Anthony Soft</li>
                             </ul>
                         </div>
                         </div>
@@ -126,14 +111,13 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/featured-02.jpg" alt="">
+                        <img src="img/col/5.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Run In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <h4>Walk In The Nature</h4>
                             <ul>
-                            <li><span>Contest Winner:</span> Vincent Adam</li>
-                            <li><span>Contest Author:</span> Anthony Soft</li>
-                            <li><span>Awards:</span> $5,500 + Canon EOS R3</li>
+                            <li><span>Category:</span> Secretaries</li>
+                            <li><span>Photographer:</span> Anthony Soft</li>
                             </ul>
                         </div>
                         </div>
@@ -141,14 +125,13 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/featured-03.jpg" alt="">
+                        <img src="img/col/6.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Stay In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <h4>Walk In The Nature</h4>
                             <ul>
-                            <li><span>Contest Winner:</span> Thomas Eddy</li>
-                            <li><span>Contest Author:</span> Anthony Soft</li>
-                            <li><span>Awards:</span> $4,400 + Canon EOS R5</li>
+                            <li><span>Category:</span> Secretaries</li>
+                            <li><span>Photographer:</span> Anthony Soft</li>
                             </ul>
                         </div>
                         </div>
@@ -156,14 +139,13 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/featured-01.jpg" alt="">
+                        <img src="img/col/7.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <h4>Walk In The Nature</h4>
                             <ul>
-                            <li><span>Contest Winner:</span> Vincent Adam</li>
-                            <li><span>Contest Author:</span> Anthony Soft</li>
-                            <li><span>Awards:</span> $3,800 + Canon EOS R6</li>
+                            <li><span>Category:</span> Secretaries</li>
+                            <li><span>Photographer:</span> Anthony Soft</li>
                             </ul>
                         </div>
                         </div>
@@ -171,14 +153,13 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/featured-02.jpg" alt="">
+                        <img src="img/col/8.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Shoot In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <h4>Walk In The Nature</h4>
                             <ul>
-                            <li><span>Contest Winner:</span> Vincent Adam</li>
-                            <li><span>Contest Author:</span> Anthony Soft</li>
-                            <li><span>Awards:</span> $2,400 + Canon EOS R7</li>
+                            <li><span>Category:</span> Secretaries</li>
+                            <li><span>Photographer:</span> Anthony Soft</li>
                             </ul>
                         </div>
                         </div>
@@ -186,14 +167,13 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/featured-03.jpg" alt="">
+                        <img src="img/col/9.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Fly In The Nature <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> <span>(4.5)</span></h4>
+                            <h4>Walk In The Nature</h4>
                             <ul>
-                            <li><span>Contest Winner:</span> Vincent Adam</li>
-                            <li><span>Contest Author:</span> Anthony Soft</li>
-                            <li><span>Awards:</span> $1,200 + Canon EOS R10</li>
+                            <li><span>Category:</span> Secretaries</li>
+                            <li><span>Photographer:</span> Anthony Soft</li>
                             </ul>
                         </div>
                         </div>
@@ -211,8 +191,7 @@
             <div class="row">
                 <div class="col-lg-6">
                 <div class="section-heading">
-                    <h6>Our Categories</h6>
-                    <h4>Check Out <em>Popular</em> Contest <em>Categories</em></h4>
+                    <h4>Check Out the <em>Latest Events</em> this Month!</h4>
                 </div>
                 </div>
                 <div class="col-lg-6">
@@ -223,12 +202,8 @@
                 <div class="col-lg-3 col-sm-6">
                 <div class="popular-item">
                     <div class="top-content">
-                    <div class="icon">
-                        <img src="img/icon-01.png" alt="">
-                    </div>
                     <div class="right">
-                        <h4>Nature Pic Contest</h4>
-                        <span><em>126</em> Available Contests</span>
+                        <h4>#Science Journo Ako, Goes to Ilocos Norte</h4>
                     </div>
                     </div>
                     <div class="thumb">
@@ -237,19 +212,15 @@
                     <span class="likes"><i class="fa fa-heart"></i> 256</span>
                     </div>
                     <div class="border-button">
-                    <a href="contest-details.html">Browse Nature Pic Contests</a>
+                    <a href="contest-details.html">Browse Album</a>
                     </div>
                 </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                 <div class="popular-item">
                     <div class="top-content">
-                    <div class="icon">
-                        <img src="img/icon-02.png" alt="">
-                    </div>
                     <div class="right">
-                        <h4>Random Pic Contest</h4>
-                        <span><em>116</em> Available Contests</span>
+                        <h4>Mini Science Centrum Launching in Polilio Island</h4>
                     </div>
                     </div>
                     <div class="thumb">
@@ -258,19 +229,15 @@
                     <span class="likes"><i class="fa fa-heart"></i> 256</span>
                     </div>
                     <div class="border-button">
-                    <a href="contest-details.html">Browse Random Pic Contests</a>
+                    <a href="contest-details.html">Browse Album</a>
                     </div>
                 </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                 <div class="popular-item">
                     <div class="top-content">
-                    <div class="icon">
-                        <img src="img/icon-03.png" alt="">
-                    </div>
                     <div class="right">
-                        <h4>Portrait Pic Contest</h4>
-                        <span><em>164</em> Available Contests</span>
+                        <h4>Launching of a Smart Food Chain Value Processing Facility in Lucena City</h4>
                     </div>
                     </div>
                     <div class="thumb">
@@ -279,19 +246,15 @@
                     <span class="likes"><i class="fa fa-heart"></i> 256</span>
                     </div>
                     <div class="border-button">
-                    <a href="contest-details.html">Browse Portrait Pic Contests</a>
+                    <a href="contest-details.html">Browse Album</a>
                     </div>
                 </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                 <div class="popular-item">
                     <div class="top-content">
-                    <div class="icon">
-                        <img src="img/icon-04.png" alt="">
-                    </div>
                     <div class="right">
-                        <h4>Space Pic Contest</h4>
-                        <span><em>135</em> Available Contests</span>
+                        <h4>DOST-Handa Pilipinas 2023 held in World Trade Center</h4>
                     </div>
                     </div>
                     <div class="thumb">
@@ -300,7 +263,7 @@
                     <span class="likes"><i class="fa fa-heart"></i> 256</span>
                     </div>
                     <div class="border-button">
-                    <a href="contest-details.html">Browse Space Pic Contests</a>
+                    <a href="contest-details.html">Browse Album</a>
                     </div>
                 </div>
                 </div>
@@ -313,8 +276,7 @@
             <div class="row">
                 <div class="col-lg-12">
                 <div class="section-heading text-center">
-                    <h6>Closed Photography Contests</h6>
-                    <h4><em>Previous Contests</em> With Handpicked <em>Winners</em></h4>
+                    <h4>Watch our <em>Latest Coverage</em> on Youtube now</h4>
                 </div>
                 </div>
                 <div class="col-lg-12">
@@ -387,69 +349,6 @@
             </div>
         </section>
 
-        <section class="pricing-plans">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                <div class="section-heading text-center">
-                    <h6>Our Pricing</h6>
-                    <h4>Photography <em>Contest Plans</em> and Price <em>Awards</em></h4>
-                </div>
-                </div>
-                <div class="col-lg-4">
-                <div class="pricing-item">
-                    <img src="img/pricing-01.jpg" alt="">
-                    <h4>Basic Plan</h4>
-                    <ul class="first-plan">
-                    <li>Lorem Ipsum Dolores Sonte</li>
-                    <li>Songe Lorem Ipsum Dol</li>
-                    <li>Matrios Venga Heptuss</li>
-                    <li>Denim Sriracha Kogi</li>
-                    <li>Digital Photography Awards</li>
-                    </ul>
-                    <span class="price">$25 USD</span>
-                    <div class="border-button">
-                    <a href="#">Choose This Plan</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-4">
-                <div class="pricing-item">
-                    <img src="img/pricing-02.jpg" alt="">
-                    <h4>Standard Plan</h4>
-                    <ul class="second-plan">
-                    <li>Lorem Ipsum Dolores Sonte</li>
-                    <li>Songe Lorem Ipsum Dol</li>
-                    <li>Matrios Venga Heptuss</li>
-                    <li>Denim Sriracha Kogi</li>
-                    <li>Digital Photography Awards</li>
-                    </ul>
-                    <span class="price">$45 USD</span>
-                    <div class="border-button">
-                    <a href="#">Choose This Plan</a>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-4">
-                <div class="pricing-item">
-                    <img src="img/pricing-03.jpg" alt="">
-                    <h4>Advanced Plan</h4>
-                    <ul class="third-plan">
-                    <li>Lorem Ipsum Dolores Sonte</li>
-                    <li>Songe Lorem Ipsum Dol</li>
-                    <li>Matrios Venga Heptuss</li>
-                    <li>Denim Sriracha Kogi</li>
-                    <li>Digital Photography Awards</li>
-                    </ul>
-                    <span class="price">$85 USD</span>
-                    <div class="border-button">
-                    <a href="#">Choose This Plan</a>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </section>
     </div>
 </template>
 

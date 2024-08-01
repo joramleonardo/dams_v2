@@ -9,13 +9,16 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-        <link href="{{ asset('css/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
-
-        <link href="{{ asset('css/assets/css/fontawesome.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/assets/css/templatemo-snapx-photography.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/assets/css/owl.css')}}" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/assets/css/animate.css')}}" rel="stylesheet" type="text/css">
+        <!-- Frontend -->
+        <link href="{{ asset('css/frontend/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/frontend/assets/css/fontawesome.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/frontend/assets/css/templatemo-snapx-photography.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/frontend/assets/css/owl.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/frontend/assets/css/animate.css')}}" rel="stylesheet" type="text/css">
         <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+        <!-- Backend -->
+        <link href="{{ asset('css/backend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
 
     </head>
     <body> 
@@ -28,16 +31,16 @@
         <script src="{{ asset('js/scripts.js') }}"> </script>
 
         
-        <script src="{{ asset('css/vendor/jquery/jquery.min.js') }}"> </script>
-        <script src="{{ asset('css/vendor/bootstrap/js/bootstrap.min.js') }}"> </script>
-        <script src="{{ asset('css/vendor/bootstrap/js/bootstrap.min.js') }}"> </script>
+        <script src="{{ asset('css/frontend/vendor/jquery/jquery.min.js') }}"> </script>
+        <script src="{{ asset('css/frontend/vendor/bootstrap/js/bootstrap.min.js') }}"> </script>
+        <script src="{{ asset('css/frontend/vendor/bootstrap/js/bootstrap.min.js') }}"> </script>
 
-        <script src="{{ asset('js/isotope.min.js') }}"> </script>
-        <script src="{{ asset('js/owl-carousel.js') }}"> </script>
+        <script src="{{ asset('js/frontend/isotope.min.js') }}"> </script>
+        <script src="{{ asset('js/frontend/owl-carousel.js') }}"> </script>
 
-        <script src="{{ asset('js/tabs.js') }}"> </script>
-        <script src="{{ asset('js/popup.js') }}"> </script>
-        <script src="{{ asset('js/custom.js') }}"> </script>
+        <script src="{{ asset('js/frontend/tabs.js') }}"> </script>
+        <script src="{{ asset('js/frontend/popup.js') }}"> </script>
+        <script src="{{ asset('js/frontend/custom.js') }}"> </script>
 
 
     </body>
