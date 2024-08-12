@@ -1,22 +1,11 @@
-<!--
-<template>
-    <div>
-        <h1> This is Dashboard </h1>
-    </div>
-
-</template>
--->
 <template>
     <main>
         <Header />
-        <div id="layoutSidenav">
+        <div id="wrapper">
             <Sidebar />
-                        
-            <div id="layoutSidenav_content">
                 <main>
                     <router-view> </router-view>
                 </main>
-            </div>
         </div>
         <FlashMessage position="right bottom"> </FlashMessage>
     </main>
@@ -33,6 +22,33 @@
             Header,
             Sidebar,
             Footer
+        },
+        data(){
+            return {
+                isLoggedIn: false,
+                ticketData_update:{
+                    reference_code:''
+                },
+                displayName: ''
+            }
+        },
+        mounted(){
+            this.loadEmployees();
+        },
+        methods:{
+            loadEmployees: async function(){
+                try{
+
+                    
+                    const response = await ticket_service.getUserData();
+                    this.displayName=response.data.user.name;
+                } catch(error) {
+                    this.flashMessage.error({
+                    message: 'Some error occured! Please try again.',
+                    time: 5000
+                    });
+                }
+            }
         }
 
     }

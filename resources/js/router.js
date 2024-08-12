@@ -51,6 +51,11 @@ import Ticket_New_STARBOOKS from './views/New_Ticket_starbooks.vue';
 import Ticket_New_Agency from './views/New_Ticket_OtherAgency.vue';
 
 
+import Admin_Dashboard from './views/Admin_Dashboard.vue';
+import Admin_Photo_Add from './views/Admin_Photo_Add.vue';
+import Admin_Photo_Manage from './views/Admin_Photo_Manage.vue';
+
+
 Vue.use(Router);
 
 const routes = [
@@ -144,6 +149,21 @@ const routes = [
         name: 'ticket-admin',
         component: Ticket_Home_Admin,
         children: [
+            {
+                path: '/admin/dashboard',
+                name: 'admin-dashboard',
+                component: Admin_Dashboard,
+            },
+            {
+                path: '/admin/photo/add',
+                name: 'admin-photo-add',
+                component: Admin_Photo_Add,
+            },
+            {
+                path: '/admin/photo/manage',
+                name: 'admin-photo-manage',
+                component: Admin_Photo_Manage,
+            },
             {
                 path: '/ticket/admin/dashboard',
                 name: 'ticket-admin-dashboard',

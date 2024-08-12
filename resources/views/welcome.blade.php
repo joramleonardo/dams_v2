@@ -19,6 +19,7 @@
 
         <!-- Backend -->
         <link href="{{ asset('css/backend/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/backend/css/sb-admin-2.min.css')}}" rel="stylesheet" type="text/css">
 
     </head>
     <body> 
@@ -29,11 +30,11 @@
         <script src="{{ asset('js/app.js') }}"> </script>
         <script src="{{ asset('js/scripts2.js') }}"> </script>
         <script src="{{ asset('js/scripts.js') }}"> </script>
-
+<!-- 
         
         <script src="{{ asset('css/frontend/vendor/jquery/jquery.min.js') }}"> </script>
         <script src="{{ asset('css/frontend/vendor/bootstrap/js/bootstrap.min.js') }}"> </script>
-        <script src="{{ asset('css/frontend/vendor/bootstrap/js/bootstrap.min.js') }}"> </script>
+        <script src="{{ asset('css/frontend/vendor/bootstrap/js/bootstrap.min.js') }}"> </script> -->
 
         <script src="{{ asset('js/frontend/isotope.min.js') }}"> </script>
         <script src="{{ asset('js/frontend/owl-carousel.js') }}"> </script>
@@ -41,6 +42,16 @@
         <script src="{{ asset('js/frontend/tabs.js') }}"> </script>
         <script src="{{ asset('js/frontend/popup.js') }}"> </script>
         <script src="{{ asset('js/frontend/custom.js') }}"> </script>
+
+        
+        <script src="{{ asset('js/backend/vendor/jquery/jquery.min.js') }}"> </script>
+        <script src="{{ asset('js/backend/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"> </script>
+        <script src="{{ asset('js/backend/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"> </script>
+        <script src="{{ asset('js/backend/vendor/jquery-easing/jquery.easing.min.js') }}"> </script>
+        <script src="{{ asset('js/backend/vendor/chart.js/Chart.min.js') }}"> </script>
+        <script src="{{ asset('js/backend/js/sb-admin-2.min.js') }}"> </script>
+        <script src="{{ asset('js/backend/js/demo/chart-area-demo.js') }}"> </script>
+        <script src="{{ asset('js/backend/js/demo/chart-pie-demo.js') }}"> </script>
 
 
     </body>
