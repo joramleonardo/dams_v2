@@ -150556,6 +150556,648 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/DAMS-Home.vue?vue&type=template&id=2cb9df3a&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/DAMS-Home.vue?vue&type=template&id=2cb9df3a& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("header", { staticClass: "header-area header-sticky" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-12" }, [
+            _c("nav", { staticClass: "main-nav" }, [
+              _vm._m(0),
+              _vm._v(" "),
+              _c("ul", { staticClass: "nav" }, [
+                _c("li", [
+                  _c(
+                    "a",
+                    { staticClass: "active" },
+                    [
+                      _c(
+                        "router-link",
+                        {
+                          staticStyle: { color: "#fff !important" },
+                          attrs: { to: "/home" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                                    Home\n                                "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {},
+                    [
+                      _c(
+                        "router-link",
+                        {
+                          staticStyle: { color: "#fff !important" },
+                          attrs: { to: "/home" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                                    Categories\n                                "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {},
+                    [
+                      _c(
+                        "router-link",
+                        {
+                          staticStyle: { color: "#fff !important" },
+                          attrs: { to: "/home" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                                    Photos\n                                "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {},
+                    [
+                      _c(
+                        "router-link",
+                        {
+                          staticStyle: { color: "#fff !important" },
+                          attrs: { to: "/home" }
+                        },
+                        [
+                          _vm._v(
+                            "\n                                    Videos\n                                "
+                          )
+                        ]
+                      )
+                    ],
+                    1
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _vm._m(1)
+            ])
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(2),
+    _vm._v(" "),
+    _vm._m(3),
+    _vm._v(" "),
+    _vm._m(4),
+    _vm._v(" "),
+    _vm._m(5)
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "logo", attrs: { href: "index.html" } }, [
+      _c("img", {
+        attrs: { src: "img/logo-1.png", alt: "SnapX Photography Template" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "menu-trigger" }, [
+      _c("span", [_vm._v("Menu")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "main-banner" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-12 " }, [
+            _c("div", { staticClass: "header-text" }, [
+              _c("h2", [
+                _c("em", [_vm._v("Digital Assets")]),
+                _vm._v(" Management System ")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id molestie lorem. Ut massa est, ornare et tristique a, fringilla quis purus. Vivamus elit ligula, accumsan vitae venenatis sed, fringilla at nisi."
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      { staticClass: "featured-items", attrs: { id: "featured-items" } },
+      [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "owl-features owl-carousel",
+                  staticStyle: { position: "relative", "z-index": "5" }
+                },
+                [
+                  _c("div", { staticClass: "item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/1.jpg", alt: "" } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "hover-effect" }, [
+                        _c("div", { staticClass: "content" }, [
+                          _c("h4", [_vm._v("Walk In The Nature")]),
+                          _vm._v(" "),
+                          _c("ul", [
+                            _c("li", [
+                              _c("span", [_vm._v("Category:")]),
+                              _vm._v(" Secretaries")
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("span", [_vm._v("Photographer:")]),
+                              _vm._v(" Anthony Soft")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/2.jpg", alt: "" } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "hover-effect" }, [
+                        _c("div", { staticClass: "content" }, [
+                          _c("h4", [_vm._v("Walk In The Nature")]),
+                          _vm._v(" "),
+                          _c("ul", [
+                            _c("li", [
+                              _c("span", [_vm._v("Category:")]),
+                              _vm._v(" Secretaries")
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("span", [_vm._v("Photographer:")]),
+                              _vm._v(" Anthony Soft")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/3.jpg", alt: "" } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "hover-effect" }, [
+                        _c("div", { staticClass: "content" }, [
+                          _c("h4", [_vm._v("Walk In The Nature")]),
+                          _vm._v(" "),
+                          _c("ul", [
+                            _c("li", [
+                              _c("span", [_vm._v("Category:")]),
+                              _vm._v(" Secretaries")
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("span", [_vm._v("Photographer:")]),
+                              _vm._v(" Anthony Soft")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/4.jpg", alt: "" } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "hover-effect" }, [
+                        _c("div", { staticClass: "content" }, [
+                          _c("h4", [_vm._v("Walk In The Nature")]),
+                          _vm._v(" "),
+                          _c("ul", [
+                            _c("li", [
+                              _c("span", [_vm._v("Category:")]),
+                              _vm._v(" Secretaries")
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("span", [_vm._v("Photographer:")]),
+                              _vm._v(" Anthony Soft")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/5.jpg", alt: "" } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "hover-effect" }, [
+                        _c("div", { staticClass: "content" }, [
+                          _c("h4", [_vm._v("Walk In The Nature")]),
+                          _vm._v(" "),
+                          _c("ul", [
+                            _c("li", [
+                              _c("span", [_vm._v("Category:")]),
+                              _vm._v(" Secretaries")
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("span", [_vm._v("Photographer:")]),
+                              _vm._v(" Anthony Soft")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/6.jpg", alt: "" } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "hover-effect" }, [
+                        _c("div", { staticClass: "content" }, [
+                          _c("h4", [_vm._v("Walk In The Nature")]),
+                          _vm._v(" "),
+                          _c("ul", [
+                            _c("li", [
+                              _c("span", [_vm._v("Category:")]),
+                              _vm._v(" Secretaries")
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("span", [_vm._v("Photographer:")]),
+                              _vm._v(" Anthony Soft")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/7.jpg", alt: "" } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "hover-effect" }, [
+                        _c("div", { staticClass: "content" }, [
+                          _c("h4", [_vm._v("Walk In The Nature")]),
+                          _vm._v(" "),
+                          _c("ul", [
+                            _c("li", [
+                              _c("span", [_vm._v("Category:")]),
+                              _vm._v(" Secretaries")
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("span", [_vm._v("Photographer:")]),
+                              _vm._v(" Anthony Soft")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/8.jpg", alt: "" } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "hover-effect" }, [
+                        _c("div", { staticClass: "content" }, [
+                          _c("h4", [_vm._v("Walk In The Nature")]),
+                          _vm._v(" "),
+                          _c("ul", [
+                            _c("li", [
+                              _c("span", [_vm._v("Category:")]),
+                              _vm._v(" Secretaries")
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("span", [_vm._v("Photographer:")]),
+                              _vm._v(" Anthony Soft")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/9.jpg", alt: "" } }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "hover-effect" }, [
+                        _c("div", { staticClass: "content" }, [
+                          _c("h4", [_vm._v("Walk In The Nature")]),
+                          _vm._v(" "),
+                          _c("ul", [
+                            _c("li", [
+                              _c("span", [_vm._v("Category:")]),
+                              _vm._v(" Secretaries")
+                            ]),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c("span", [_vm._v("Photographer:")]),
+                              _vm._v(" Anthony Soft")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ])
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "popular-categories" }, [
+      _c("div", { staticClass: "container-fluid" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-6" }, [
+            _c("div", { staticClass: "section-heading" }, [
+              _c("h4", [
+                _vm._v("Check Out the "),
+                _c("em", [_vm._v("Latest Events")]),
+                _vm._v(" this Month!")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-6" }, [
+            _c("div", { staticClass: "main-button" }, [
+              _c("a", { attrs: { href: "categories.html" } }, [
+                _vm._v("Discover All Categories")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-sm-6" }, [
+            _c("div", { staticClass: "popular-item" }, [
+              _c("div", { staticClass: "top-content" }, [
+                _c("div", { staticClass: "right" }, [
+                  _c("h4", [_vm._v("Nam finibus, diam at egestas semper")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "thumb" }, [
+                _c("img", { attrs: { src: "img/col/1.jpg", alt: "" } }),
+                _vm._v(" "),
+                _c("span", { staticClass: "likes" }, [
+                  _c("i", { staticClass: "fa fa-heart" }),
+                  _vm._v(" 256")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "border-button" }, [
+                _c("a", { attrs: { href: "contest-details.html" } }, [
+                  _vm._v("Browse Album")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-sm-6" }, [
+            _c("div", { staticClass: "popular-item" }, [
+              _c("div", { staticClass: "top-content" }, [
+                _c("div", { staticClass: "right" }, [
+                  _c("h4", [_vm._v("Duis iaculis purus eu odio fringilla")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "thumb" }, [
+                _c("img", { attrs: { src: "img/col/2.jpg", alt: "" } }),
+                _vm._v(" "),
+                _c("span", { staticClass: "likes" }, [
+                  _c("i", { staticClass: "fa fa-heart" }),
+                  _vm._v(" 256")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "border-button" }, [
+                _c("a", { attrs: { href: "contest-details.html" } }, [
+                  _vm._v("Browse Album")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-sm-6" }, [
+            _c("div", { staticClass: "popular-item" }, [
+              _c("div", { staticClass: "top-content" }, [
+                _c("div", { staticClass: "right" }, [
+                  _c("h4", [_vm._v("Etiam vehicula porta consequat")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "thumb" }, [
+                _c("img", { attrs: { src: "img/col/3.jpg", alt: "" } }),
+                _vm._v(" "),
+                _c("span", { staticClass: "likes" }, [
+                  _c("i", { staticClass: "fa fa-heart" }),
+                  _vm._v(" 256")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "border-button" }, [
+                _c("a", { attrs: { href: "contest-details.html" } }, [
+                  _vm._v("Browse Album")
+                ])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-3 col-sm-6" }, [
+            _c("div", { staticClass: "popular-item" }, [
+              _c("div", { staticClass: "top-content" }, [
+                _c("div", { staticClass: "right" }, [
+                  _c("h4", [_vm._v("Duis maximus vulputate diam in convallis")])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "thumb" }, [
+                _c("img", { attrs: { src: "img/col/4.jpg", alt: "" } }),
+                _vm._v(" "),
+                _c("span", { staticClass: "likes" }, [
+                  _c("i", { staticClass: "fa fa-heart" }),
+                  _vm._v(" 256")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "border-button" }, [
+                _c("a", { attrs: { href: "contest-details.html" } }, [
+                  _vm._v("Browse Album")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "closed-contests" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-12" }, [
+            _c("div", { staticClass: "section-heading text-center" }, [
+              _c("h4", [
+                _vm._v("Watch our "),
+                _c("em", [_vm._v("Latest Coverage")]),
+                _vm._v(" on Youtube now")
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-12" }, [
+            _c(
+              "div",
+              {
+                staticClass: "owl-features owl-carousel",
+                staticStyle: { position: "relative", "z-index": "5" }
+              },
+              [
+                _c("div", { staticClass: "item" }, [
+                  _c("div", { staticClass: "closed-item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/7.jpg", alt: "" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "down-content" }, [
+                      _c("div", { staticClass: "row" }, [
+                        _c("div", { staticClass: "col-12" }, [
+                          _c("h4", [
+                            _vm._v("Aenean efficitur interdum orci at volutpa")
+                          ])
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" }, [
+                  _c("div", { staticClass: "closed-item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/8.jpg", alt: "" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "down-content" }, [
+                      _c("div", { staticClass: "row" }, [
+                        _c("div", { staticClass: "col-12" }, [
+                          _c("h4", [
+                            _vm._v("Aenean efficitur interdum orci at volutpa")
+                          ])
+                        ])
+                      ])
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "item" }, [
+                  _c("div", { staticClass: "closed-item" }, [
+                    _c("div", { staticClass: "thumb" }, [
+                      _c("img", { attrs: { src: "img/col/9.jpg", alt: "" } })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "down-content" }, [
+                      _c("div", { staticClass: "row" }, [
+                        _c("div", { staticClass: "col-12" }, [
+                          _c("h4", [
+                            _vm._v("Aenean efficitur interdum orci at volutpa")
+                          ])
+                        ])
+                      ])
+                    ])
+                  ])
+                ])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-12" }, [
+            _c("div", { staticClass: "border-button text-center" }, [
+              _c("a", { attrs: { href: "contests.html" } }, [
+                _vm._v("Visit us on Youtube")
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Footer.vue?vue&type=template&id=0b2929fa&":
 /*!****************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Footer.vue?vue&type=template&id=0b2929fa& ***!
@@ -171634,585 +172276,6 @@ var staticRenderFns = [
               },
               [_c("i", { staticClass: "fab fa-fw fa-dribbble" })]
             )
-          ])
-        ])
-      ])
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Ticket-Home.vue?vue&type=template&id=5a24925e&":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/views/Ticket-Home.vue?vue&type=template&id=5a24925e& ***!
-  \*********************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("header", { staticClass: "header-area header-sticky" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-12" }, [
-              _c("nav", { staticClass: "main-nav" }, [
-                _c(
-                  "a",
-                  { staticClass: "logo", attrs: { href: "index.html" } },
-                  [
-                    _c("img", {
-                      attrs: {
-                        src: "img/logo-1.png",
-                        alt: "SnapX Photography Template"
-                      }
-                    })
-                  ]
-                ),
-                _vm._v(" "),
-                _c("ul", { staticClass: "nav" }, [
-                  _c("li", [
-                    _c(
-                      "a",
-                      { staticClass: "active", attrs: { href: "index.html" } },
-                      [_vm._v("Home")]
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "has-sub" }, [
-                    _c("a", { attrs: { href: "javascript:void(0)" } }, [
-                      _vm._v("Categories")
-                    ]),
-                    _vm._v(" "),
-                    _c("ul", { staticClass: "sub-menu" }, [
-                      _c("li", [
-                        _c("a", { attrs: { href: "contests.html" } }, [
-                          _vm._v("Contests")
-                        ])
-                      ]),
-                      _vm._v(" "),
-                      _c("li", [
-                        _c("a", { attrs: { href: "contest-details.html" } }, [
-                          _vm._v("Single Contest")
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "categories.html" } }, [
-                      _vm._v("Photos")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "categories.html" } }, [
-                      _vm._v("Videos")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("a", { staticClass: "menu-trigger" }, [
-                  _c("span", [_vm._v("Menu")])
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "main-banner" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-12 " }, [
-              _c("div", { staticClass: "header-text" }, [
-                _c("h2", [
-                  _c("em", [_vm._v("Digital Assets")]),
-                  _vm._v(" Management System ")
-                ]),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id molestie lorem. Ut massa est, ornare et tristique a, fringilla quis purus. Vivamus elit ligula, accumsan vitae venenatis sed, fringilla at nisi."
-                  )
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "section",
-        { staticClass: "featured-items", attrs: { id: "featured-items" } },
-        [
-          _c("div", { staticClass: "container" }, [
-            _c("div", { staticClass: "row" }, [
-              _c("div", { staticClass: "col-lg-12" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "owl-features owl-carousel",
-                    staticStyle: { position: "relative", "z-index": "5" }
-                  },
-                  [
-                    _c("div", { staticClass: "item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/1.jpg", alt: "" } }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "hover-effect" }, [
-                          _c("div", { staticClass: "content" }, [
-                            _c("h4", [_vm._v("Walk In The Nature")]),
-                            _vm._v(" "),
-                            _c("ul", [
-                              _c("li", [
-                                _c("span", [_vm._v("Category:")]),
-                                _vm._v(" Secretaries")
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("span", [_vm._v("Photographer:")]),
-                                _vm._v(" Anthony Soft")
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/2.jpg", alt: "" } }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "hover-effect" }, [
-                          _c("div", { staticClass: "content" }, [
-                            _c("h4", [_vm._v("Walk In The Nature")]),
-                            _vm._v(" "),
-                            _c("ul", [
-                              _c("li", [
-                                _c("span", [_vm._v("Category:")]),
-                                _vm._v(" Secretaries")
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("span", [_vm._v("Photographer:")]),
-                                _vm._v(" Anthony Soft")
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/3.jpg", alt: "" } }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "hover-effect" }, [
-                          _c("div", { staticClass: "content" }, [
-                            _c("h4", [_vm._v("Walk In The Nature")]),
-                            _vm._v(" "),
-                            _c("ul", [
-                              _c("li", [
-                                _c("span", [_vm._v("Category:")]),
-                                _vm._v(" Secretaries")
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("span", [_vm._v("Photographer:")]),
-                                _vm._v(" Anthony Soft")
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/4.jpg", alt: "" } }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "hover-effect" }, [
-                          _c("div", { staticClass: "content" }, [
-                            _c("h4", [_vm._v("Walk In The Nature")]),
-                            _vm._v(" "),
-                            _c("ul", [
-                              _c("li", [
-                                _c("span", [_vm._v("Category:")]),
-                                _vm._v(" Secretaries")
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("span", [_vm._v("Photographer:")]),
-                                _vm._v(" Anthony Soft")
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/5.jpg", alt: "" } }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "hover-effect" }, [
-                          _c("div", { staticClass: "content" }, [
-                            _c("h4", [_vm._v("Walk In The Nature")]),
-                            _vm._v(" "),
-                            _c("ul", [
-                              _c("li", [
-                                _c("span", [_vm._v("Category:")]),
-                                _vm._v(" Secretaries")
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("span", [_vm._v("Photographer:")]),
-                                _vm._v(" Anthony Soft")
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/6.jpg", alt: "" } }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "hover-effect" }, [
-                          _c("div", { staticClass: "content" }, [
-                            _c("h4", [_vm._v("Walk In The Nature")]),
-                            _vm._v(" "),
-                            _c("ul", [
-                              _c("li", [
-                                _c("span", [_vm._v("Category:")]),
-                                _vm._v(" Secretaries")
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("span", [_vm._v("Photographer:")]),
-                                _vm._v(" Anthony Soft")
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/7.jpg", alt: "" } }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "hover-effect" }, [
-                          _c("div", { staticClass: "content" }, [
-                            _c("h4", [_vm._v("Walk In The Nature")]),
-                            _vm._v(" "),
-                            _c("ul", [
-                              _c("li", [
-                                _c("span", [_vm._v("Category:")]),
-                                _vm._v(" Secretaries")
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("span", [_vm._v("Photographer:")]),
-                                _vm._v(" Anthony Soft")
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/8.jpg", alt: "" } }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "hover-effect" }, [
-                          _c("div", { staticClass: "content" }, [
-                            _c("h4", [_vm._v("Walk In The Nature")]),
-                            _vm._v(" "),
-                            _c("ul", [
-                              _c("li", [
-                                _c("span", [_vm._v("Category:")]),
-                                _vm._v(" Secretaries")
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("span", [_vm._v("Photographer:")]),
-                                _vm._v(" Anthony Soft")
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/9.jpg", alt: "" } }),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "hover-effect" }, [
-                          _c("div", { staticClass: "content" }, [
-                            _c("h4", [_vm._v("Walk In The Nature")]),
-                            _vm._v(" "),
-                            _c("ul", [
-                              _c("li", [
-                                _c("span", [_vm._v("Category:")]),
-                                _vm._v(" Secretaries")
-                              ]),
-                              _vm._v(" "),
-                              _c("li", [
-                                _c("span", [_vm._v("Photographer:")]),
-                                _vm._v(" Anthony Soft")
-                              ])
-                            ])
-                          ])
-                        ])
-                      ])
-                    ])
-                  ]
-                )
-              ])
-            ])
-          ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("section", { staticClass: "popular-categories" }, [
-        _c("div", { staticClass: "container-fluid" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-6" }, [
-              _c("div", { staticClass: "section-heading" }, [
-                _c("h4", [
-                  _vm._v("Check Out the "),
-                  _c("em", [_vm._v("Latest Events")]),
-                  _vm._v(" this Month!")
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-6" }, [
-              _c("div", { staticClass: "main-button" }, [
-                _c("a", { attrs: { href: "categories.html" } }, [
-                  _vm._v("Discover All Categories")
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-sm-6" }, [
-              _c("div", { staticClass: "popular-item" }, [
-                _c("div", { staticClass: "top-content" }, [
-                  _c("div", { staticClass: "right" }, [
-                    _c("h4", [_vm._v("Nam finibus, diam at egestas semper")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "thumb" }, [
-                  _c("img", { attrs: { src: "img/col/1.jpg", alt: "" } }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "likes" }, [
-                    _c("i", { staticClass: "fa fa-heart" }),
-                    _vm._v(" 256")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "border-button" }, [
-                  _c("a", { attrs: { href: "contest-details.html" } }, [
-                    _vm._v("Browse Album")
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-sm-6" }, [
-              _c("div", { staticClass: "popular-item" }, [
-                _c("div", { staticClass: "top-content" }, [
-                  _c("div", { staticClass: "right" }, [
-                    _c("h4", [_vm._v("Duis iaculis purus eu odio fringilla")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "thumb" }, [
-                  _c("img", { attrs: { src: "img/col/2.jpg", alt: "" } }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "likes" }, [
-                    _c("i", { staticClass: "fa fa-heart" }),
-                    _vm._v(" 256")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "border-button" }, [
-                  _c("a", { attrs: { href: "contest-details.html" } }, [
-                    _vm._v("Browse Album")
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-sm-6" }, [
-              _c("div", { staticClass: "popular-item" }, [
-                _c("div", { staticClass: "top-content" }, [
-                  _c("div", { staticClass: "right" }, [
-                    _c("h4", [_vm._v("Etiam vehicula porta consequat")])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "thumb" }, [
-                  _c("img", { attrs: { src: "img/col/3.jpg", alt: "" } }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "likes" }, [
-                    _c("i", { staticClass: "fa fa-heart" }),
-                    _vm._v(" 256")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "border-button" }, [
-                  _c("a", { attrs: { href: "contest-details.html" } }, [
-                    _vm._v("Browse Album")
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-3 col-sm-6" }, [
-              _c("div", { staticClass: "popular-item" }, [
-                _c("div", { staticClass: "top-content" }, [
-                  _c("div", { staticClass: "right" }, [
-                    _c("h4", [
-                      _vm._v("Duis maximus vulputate diam in convallis")
-                    ])
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "thumb" }, [
-                  _c("img", { attrs: { src: "img/col/4.jpg", alt: "" } }),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "likes" }, [
-                    _c("i", { staticClass: "fa fa-heart" }),
-                    _vm._v(" 256")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "border-button" }, [
-                  _c("a", { attrs: { href: "contest-details.html" } }, [
-                    _vm._v("Browse Album")
-                  ])
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "closed-contests" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-12" }, [
-              _c("div", { staticClass: "section-heading text-center" }, [
-                _c("h4", [
-                  _vm._v("Watch our "),
-                  _c("em", [_vm._v("Latest Coverage")]),
-                  _vm._v(" on Youtube now")
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-12" }, [
-              _c(
-                "div",
-                {
-                  staticClass: "owl-features owl-carousel",
-                  staticStyle: { position: "relative", "z-index": "5" }
-                },
-                [
-                  _c("div", { staticClass: "item" }, [
-                    _c("div", { staticClass: "closed-item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/7.jpg", alt: "" } })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "down-content" }, [
-                        _c("div", { staticClass: "row" }, [
-                          _c("div", { staticClass: "col-12" }, [
-                            _c("h4", [
-                              _vm._v(
-                                "Aenean efficitur interdum orci at volutpa"
-                              )
-                            ])
-                          ])
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("div", { staticClass: "closed-item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/8.jpg", alt: "" } })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "down-content" }, [
-                        _c("div", { staticClass: "row" }, [
-                          _c("div", { staticClass: "col-12" }, [
-                            _c("h4", [
-                              _vm._v(
-                                "Aenean efficitur interdum orci at volutpa"
-                              )
-                            ])
-                          ])
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "item" }, [
-                    _c("div", { staticClass: "closed-item" }, [
-                      _c("div", { staticClass: "thumb" }, [
-                        _c("img", { attrs: { src: "img/col/9.jpg", alt: "" } })
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "down-content" }, [
-                        _c("div", { staticClass: "row" }, [
-                          _c("div", { staticClass: "col-12" }, [
-                            _c("h4", [
-                              _vm._v(
-                                "Aenean efficitur interdum orci at volutpa"
-                              )
-                            ])
-                          ])
-                        ])
-                      ])
-                    ])
-                  ])
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-12" }, [
-              _c("div", { staticClass: "border-button text-center" }, [
-                _c("a", { attrs: { href: "contests.html" } }, [
-                  _vm._v("Visit us on Youtube")
-                ])
-              ])
-            ])
           ])
         ])
       ])
@@ -198901,7 +198964,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _views_Login_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./views/Login.vue */ "./resources/js/views/Login.vue");
-/* harmony import */ var _views_Ticket_Home_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./views/Ticket-Home.vue */ "./resources/js/views/Ticket-Home.vue");
+/* harmony import */ var _views_DAMS_Home_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./views/DAMS-Home.vue */ "./resources/js/views/DAMS-Home.vue");
 /* harmony import */ var _views_Ticket_Home_Technical_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./views/Ticket-Home-Technical.vue */ "./resources/js/views/Ticket-Home-Technical.vue");
 /* harmony import */ var _views_Ticket_Home_Request_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./views/Ticket-Home-Request.vue */ "./resources/js/views/Ticket-Home-Request.vue");
 /* harmony import */ var _views_Ticket_Home_FollowUp_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./views/Ticket-Home-FollowUp.vue */ "./resources/js/views/Ticket-Home-FollowUp.vue");
@@ -198978,66 +199041,11 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 var routes = [{
   path: '/home',
   name: 'home',
-  component: _views_Ticket_Home_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+  component: _views_DAMS_Home_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
 }, {
   path: '/home/technical',
   name: 'home/technical',
   component: _views_Ticket_Home_Technical_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
-}, {
-  path: '/request',
-  name: 'request',
-  component: _views_Ticket_Home_Request_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
-}, {
-  path: '/followup',
-  name: 'followup',
-  component: _views_Ticket_Home_FollowUp_vue__WEBPACK_IMPORTED_MODULE_6__["default"]
-}, {
-  path: '/feedback',
-  name: 'feedback',
-  component: _views_Ticket_Home_Feedback_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
-}, {
-  path: '/rating/:id',
-  name: 'rating',
-  component: _views_Rating_vue__WEBPACK_IMPORTED_MODULE_8__["default"]
-}, //Ticket Routes
-//SUPER ADMIN ROUTES
-{
-  path: '/ticket/superadmin/',
-  name: 'ticket-superadmin',
-  component: _views_Ticket_Home_SuperAdmin_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
-  children: [{
-    path: '/ticket/superadmin/dashboard',
-    name: 'ticket-superadmin-dashboard',
-    component: _views_Ticket_Admin_Dashboard_vue__WEBPACK_IMPORTED_MODULE_10__["default"]
-  }, {
-    path: '/ticket/superadmin/status',
-    name: 'ticket-superadmin-status',
-    component: _views_Ticket_Status_vue__WEBPACK_IMPORTED_MODULE_11__["default"]
-  }, {
-    path: '/ticket/superadmin/pending',
-    name: 'ticket-superadmin-pending',
-    component: _views_Ticket_Pending_vue__WEBPACK_IMPORTED_MODULE_12__["default"]
-  }, {
-    path: '/ticket/superadmin/approved',
-    name: 'ticket-superadmin-approved',
-    component: _views_Ticket_Approved_vue__WEBPACK_IMPORTED_MODULE_13__["default"]
-  }, {
-    path: '/ticket/superadmin/inprogress',
-    name: 'ticket-superadmin-inprogress',
-    component: _views_Ticket_InProgress_vue__WEBPACK_IMPORTED_MODULE_14__["default"]
-  }, {
-    path: '/ticket/superadmin/completed',
-    name: 'ticket-superadmin-completed',
-    component: _views_Ticket_Completed_vue__WEBPACK_IMPORTED_MODULE_15__["default"]
-  }, {
-    path: '/ticket/superadmin/closed',
-    name: 'ticket-superadmin-closed',
-    component: _views_Ticket_Closed_vue__WEBPACK_IMPORTED_MODULE_16__["default"]
-  }, {
-    path: '/ticket/superadmin/rescheduled',
-    name: 'ticket-superadmin-rescheduled',
-    component: _views_Ticket_Rescheduled_vue__WEBPACK_IMPORTED_MODULE_17__["default"]
-  }]
 }, //ADMIN ROUTES
 {
   path: '/ticket/admin/',
@@ -199055,121 +199063,7 @@ var routes = [{
     path: '/admin/photo/manage',
     name: 'admin-photo-manage',
     component: _views_Admin_Photo_Manage_vue__WEBPACK_IMPORTED_MODULE_29__["default"]
-  }, {
-    path: '/ticket/admin/dashboard',
-    name: 'ticket-admin-dashboard',
-    component: _views_Ticket_Admin_Dashboard_vue__WEBPACK_IMPORTED_MODULE_10__["default"]
-  }, {
-    path: '/ticket/admin/status',
-    name: 'ticket-admin-status',
-    component: _views_Ticket_Status_vue__WEBPACK_IMPORTED_MODULE_11__["default"]
-  }, {
-    path: '/ticket/admin/pending',
-    name: 'ticket-admin-pending',
-    component: _views_Ticket_Pending_vue__WEBPACK_IMPORTED_MODULE_12__["default"]
-  }, {
-    path: '/ticket/admin/approved',
-    name: 'ticket-admin-approved',
-    component: _views_Ticket_Approved_vue__WEBPACK_IMPORTED_MODULE_13__["default"]
-  }, {
-    path: '/ticket/admin/inprogress',
-    name: 'ticket-admin-inprogress',
-    component: _views_Ticket_InProgress_vue__WEBPACK_IMPORTED_MODULE_14__["default"]
-  }, {
-    path: '/ticket/admin/completed',
-    name: 'ticket-admin-completed',
-    component: _views_Ticket_Completed_vue__WEBPACK_IMPORTED_MODULE_15__["default"]
-  }, {
-    path: '/ticket/admin/closed',
-    name: 'ticket-admin-closed',
-    component: _views_Ticket_Closed_vue__WEBPACK_IMPORTED_MODULE_16__["default"]
-  }, {
-    path: '/ticket/admin/rescheduled',
-    name: 'ticket-admin-rescheduled',
-    component: _views_Ticket_Rescheduled_vue__WEBPACK_IMPORTED_MODULE_17__["default"]
-  }, {
-    path: '/ticket/admin/new/employee',
-    name: 'ticket-admin-new-employee',
-    component: _views_New_Ticket_Employee_vue__WEBPACK_IMPORTED_MODULE_24__["default"]
-  }, {
-    path: '/ticket/admin/new/agency',
-    name: 'ticket-admin-new-agency',
-    component: _views_New_Ticket_OtherAgency_vue__WEBPACK_IMPORTED_MODULE_26__["default"]
-  }, {
-    path: '/ticket/admin/new/starbooks',
-    name: 'ticket-admin-new-starbooks',
-    component: _views_New_Ticket_starbooks_vue__WEBPACK_IMPORTED_MODULE_25__["default"]
   }]
-}, //STAFF ROUTES
-{
-  path: '/ticket/staff/',
-  name: 'ticket-staff',
-  component: _views_Ticket_Home_Staff_vue__WEBPACK_IMPORTED_MODULE_19__["default"],
-  children: [{
-    path: '/ticket/staff/status',
-    name: 'ticket-staff-status',
-    component: _views_Ticket_Status_vue__WEBPACK_IMPORTED_MODULE_11__["default"]
-  }, {
-    path: '/ticket/staff/approved',
-    name: 'ticket-staff-approved',
-    component: _views_Ticket_Approved_vue__WEBPACK_IMPORTED_MODULE_13__["default"]
-  }, {
-    path: '/ticket/staff/inprogress',
-    name: 'ticket-staff-inprogress',
-    component: _views_Ticket_InProgress_vue__WEBPACK_IMPORTED_MODULE_14__["default"]
-  }, {
-    path: '/ticket/staff/completed',
-    name: 'ticket-staff-completed',
-    component: _views_Ticket_Completed_vue__WEBPACK_IMPORTED_MODULE_15__["default"]
-  }, {
-    path: '/ticket/staff/closed',
-    name: 'ticket-staff-closed',
-    component: _views_Ticket_Closed_vue__WEBPACK_IMPORTED_MODULE_16__["default"]
-  }, {
-    path: '/ticket/staff/rescheduled',
-    name: 'ticket-staff-rescheduled',
-    component: _views_Ticket_Rescheduled_vue__WEBPACK_IMPORTED_MODULE_17__["default"]
-  }, {
-    path: '/ticket/staff/new/employee',
-    name: 'ticket-staff-new-employee',
-    component: _views_New_Ticket_Employee_vue__WEBPACK_IMPORTED_MODULE_24__["default"]
-  }, {
-    path: '/ticket/staff/new/agency',
-    name: 'ticket-staff-new-agency',
-    component: _views_New_Ticket_OtherAgency_vue__WEBPACK_IMPORTED_MODULE_26__["default"]
-  }, {
-    path: '/ticket/staff/new/starbooks',
-    name: 'ticket-staff-new-starbooks',
-    component: _views_New_Ticket_starbooks_vue__WEBPACK_IMPORTED_MODULE_25__["default"]
-  }]
-}, //PUBLIC ROUTES
-{
-  path: '/ticket/public/',
-  name: 'ticket-public',
-  component: _views_Ticket_Public_Home_vue__WEBPACK_IMPORTED_MODULE_20__["default"],
-  children: [{
-    path: '/ticket/public/dashboard',
-    name: 'ticket-public-dashboard',
-    component: _views_Ticket_Public_Dashboard_vue__WEBPACK_IMPORTED_MODULE_21__["default"]
-  }, {
-    path: '/ticket/public/status',
-    name: 'ticket-public-status',
-    component: _views_Ticket_Public_Status_vue__WEBPACK_IMPORTED_MODULE_22__["default"]
-  }, {
-    path: '/ticket/public/completed',
-    name: 'ticket-public-completed',
-    component: _views_Ticket_Public_Completed_vue__WEBPACK_IMPORTED_MODULE_23__["default"]
-  } // {
-  //     path: '/ticket/public/approved',
-  //     name: 'ticket-public-approved',
-  //     component: Ticket_Staff_Approved,
-  // },
-  // {
-  //     path: '/ticket/public/inprogress',
-  //     name: 'ticket-public-inprogress',
-  //     component: Ticket_Staff_InProgress,
-  // },
-  ]
 }, //Login Routes
 {
   path: '/login',
@@ -199178,7 +199072,7 @@ var routes = [{
 }, {
   path: '/',
   name: '',
-  component: _views_Ticket_Home_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+  component: _views_DAMS_Home_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: routes,
@@ -199845,6 +199739,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Admin_Photo_Manage_vue_vue_type_template_id_14d894be___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Admin_Photo_Manage_vue_vue_type_template_id_14d894be___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/views/DAMS-Home.vue":
+/*!******************************************!*\
+  !*** ./resources/js/views/DAMS-Home.vue ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _DAMS_Home_vue_vue_type_template_id_2cb9df3a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DAMS-Home.vue?vue&type=template&id=2cb9df3a& */ "./resources/js/views/DAMS-Home.vue?vue&type=template&id=2cb9df3a&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _DAMS_Home_vue_vue_type_template_id_2cb9df3a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _DAMS_Home_vue_vue_type_template_id_2cb9df3a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/views/DAMS-Home.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/views/DAMS-Home.vue?vue&type=template&id=2cb9df3a&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/views/DAMS-Home.vue?vue&type=template&id=2cb9df3a& ***!
+  \*************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DAMS_Home_vue_vue_type_template_id_2cb9df3a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./DAMS-Home.vue?vue&type=template&id=2cb9df3a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/DAMS-Home.vue?vue&type=template&id=2cb9df3a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DAMS_Home_vue_vue_type_template_id_2cb9df3a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_DAMS_Home_vue_vue_type_template_id_2cb9df3a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -201182,59 +201129,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ticket_Home_Technical_vue_vue_type_template_id_6f806d41___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ticket_Home_Technical_vue_vue_type_template_id_6f806d41___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/views/Ticket-Home.vue":
-/*!********************************************!*\
-  !*** ./resources/js/views/Ticket-Home.vue ***!
-  \********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Ticket_Home_vue_vue_type_template_id_5a24925e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Ticket-Home.vue?vue&type=template&id=5a24925e& */ "./resources/js/views/Ticket-Home.vue?vue&type=template&id=5a24925e&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
-  script,
-  _Ticket_Home_vue_vue_type_template_id_5a24925e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Ticket_Home_vue_vue_type_template_id_5a24925e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/views/Ticket-Home.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/views/Ticket-Home.vue?vue&type=template&id=5a24925e&":
-/*!***************************************************************************!*\
-  !*** ./resources/js/views/Ticket-Home.vue?vue&type=template&id=5a24925e& ***!
-  \***************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ticket_Home_vue_vue_type_template_id_5a24925e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Ticket-Home.vue?vue&type=template&id=5a24925e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/views/Ticket-Home.vue?vue&type=template&id=5a24925e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ticket_Home_vue_vue_type_template_id_5a24925e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Ticket_Home_vue_vue_type_template_id_5a24925e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

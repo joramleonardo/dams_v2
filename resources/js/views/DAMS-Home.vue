@@ -9,16 +9,49 @@
                             <img src="img/logo-1.png" alt="SnapX Photography Template">
                         </a>
                         <ul class="nav">
-                            <li><a href="index.html" class="active">Home</a></li>
-                            <li class="has-sub">
+                            <li>
+                                <a class="active">
+                                    <router-link to="/home" style="color: #fff !important;">
+                                        Home
+                                    </router-link>
+                                </a>
+                            </li>
+                            <!-- <li class="has-sub">
                                 <a href="javascript:void(0)">Categories</a>
                                 <ul class="sub-menu">
-                                    <li><a href="contests.html">Contests</a></li>
-                                    <li><a href="contest-details.html">Single Contest</a></li>
+                                    <li>
+                                        <a href="contests.html">
+                                            Photos
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="contest-details.html">
+                                            Videos
+                                        </a>
+                                    </li>
                                 </ul>
+                            </li> -->
+                            <li>
+                                <a class="">
+                                    <router-link to="/home" style="color: #fff !important;">
+                                        Categories
+                                    </router-link>
+                                </a>
                             </li>
-                            <li><a href="categories.html">Photos</a></li>
-                            <li><a href="categories.html">Videos</a></li>
+                            <li>
+                                <a class="">
+                                    <router-link to="/home" style="color: #fff !important;">
+                                        Photos
+                                    </router-link>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="">
+                                    <router-link to="/home" style="color: #fff !important;">
+                                        Videos
+                                    </router-link>
+                                </a>
+                            </li>
                         </ul>   
                         <!-- <div class="border-button">
                             <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Sign In/Up</a>
