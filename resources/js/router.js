@@ -5,7 +5,10 @@ import LoginPage from './views/Login.vue';
 
 //TICKETS
 import DAMS_Home from './views/DAMS-Home.vue';
+import DAMS_Home2 from './views/DAMS-Home2.vue';
 import DAMS_Categories from './views/DAMS-Categories.vue';
+import DAMS_Photos from './views/DAMS-Photos.vue';
+import DAMS_Videos from './views/DAMS-Videos.vue';
 
 
 
@@ -33,9 +36,21 @@ const routes = [
     },
 
     {
-        path: '/home/technical',
-        name: 'home/technical',
-        component: Ticket_Home_Technical
+        path: '/categories',
+        name: 'categories',
+        component: DAMS_Categories
+    },
+
+    {
+        path: '/photos',
+        name: 'photos',
+        component: DAMS_Photos
+    },
+
+    {
+        path: '/videos',
+        name: 'videos',
+        component: DAMS_Videos
     },
 
     //ADMIN ROUTES
@@ -72,7 +87,7 @@ const routes = [
     {
         path: '/',
         name: '',
-        component: DAMS_Home
+        component: DAMS_Home2
     }
 ];
 

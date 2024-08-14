@@ -187,14 +187,14 @@ body {
 }
 
 section {
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .section-heading {
   position: relative;
   z-index: 2;
   margin-top: 0px;
-  margin-bottom: 70px;
+  margin-bottom: 0px;
 }
 
 .section-heading h6 {
@@ -936,7 +936,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 290px;
+  padding-top: 220px;
   padding-bottom: 240px;
   text-align: center;
   background-color: #2a2a2a;
@@ -1614,6 +1614,9 @@ Contests Page
 
 .photos-videos .item {
   margin-bottom: 30px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 15px;
 }
 
 .photos-videos .item .thumb {
@@ -2284,7 +2287,7 @@ Users Page
 
 .user-info {
   text-align: center;
-  margin-top: -85px;
+  /* margin-top: 85px; */
 }
 
 .user-info h4 {
@@ -2301,7 +2304,7 @@ Users Page
 
 .user-info .info {
   margin-top: 30px;
-  padding: 30px;
+  padding: 20px;
   border-radius: 15px;
   border: 1px solid #afafaf;
 }
@@ -2324,7 +2327,7 @@ Users Page
 }
 
 section.portfolio {
-  padding: 80px 0px;
+  padding: 20px 0px;
   background-color: #f7f7f7;
 }
 
