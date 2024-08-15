@@ -1479,7 +1479,8 @@ page heading
 */
 
 .page-heading {
-  background-image: url(../images/heading-bg.jpg);
+  /* background-image: url(../images/heading-bg.jpg); */
+  background-image: url(../images/blue_bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

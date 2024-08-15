@@ -73,13 +73,12 @@
                 <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/col/1.jpg" alt="">
+                        <img src="img/gallery-img-1-3col.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature</h4>
+                            <h4>Title</h4>
                             <ul>
-                            <li><span>Category:</span> Secretaries</li>
-                            <li><span>Photographer:</span> Anthony Soft</li>
+                            <li><span>Category</span></li>
                             </ul>
                         </div>
                         </div>
@@ -87,13 +86,12 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/col/2.jpg" alt="">
+                        <img src="img/gallery-img-1-3col.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature</h4>
+                            <h4>Title</h4>
                             <ul>
-                            <li><span>Category:</span> Secretaries</li>
-                            <li><span>Photographer:</span> Anthony Soft</li>
+                            <li><span>Category</span></li>
                             </ul>
                         </div>
                         </div>
@@ -101,13 +99,12 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/col/3.jpg" alt="">
+                        <img src="img/gallery-img-1-3col.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature</h4>
+                            <h4>Title</h4>
                             <ul>
-                            <li><span>Category:</span> Secretaries</li>
-                            <li><span>Photographer:</span> Anthony Soft</li>
+                            <li><span>Category</span></li>
                             </ul>
                         </div>
                         </div>
@@ -115,13 +112,12 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/col/4.jpg" alt="">
+                        <img src="img/gallery-img-1-3col.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature</h4>
+                            <h4>Title</h4>
                             <ul>
-                            <li><span>Category:</span> Secretaries</li>
-                            <li><span>Photographer:</span> Anthony Soft</li>
+                            <li><span>Category</span></li>
                             </ul>
                         </div>
                         </div>
@@ -129,13 +125,12 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/col/5.jpg" alt="">
+                        <img src="img/gallery-img-1-3col.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature</h4>
+                            <h4>Title</h4>
                             <ul>
-                            <li><span>Category:</span> Secretaries</li>
-                            <li><span>Photographer:</span> Anthony Soft</li>
+                            <li><span>Category</span></li>
                             </ul>
                         </div>
                         </div>
@@ -143,13 +138,12 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/col/6.jpg" alt="">
+                        <img src="img/gallery-img-1-3col.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature</h4>
+                            <h4>Title</h4>
                             <ul>
-                            <li><span>Category:</span> Secretaries</li>
-                            <li><span>Photographer:</span> Anthony Soft</li>
+                            <li><span>Category</span></li>
                             </ul>
                         </div>
                         </div>
@@ -157,13 +151,12 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/col/7.jpg" alt="">
+                        <img src="img/gallery-img-1-3col.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature</h4>
+                            <h4>Title</h4>
                             <ul>
-                            <li><span>Category:</span> Secretaries</li>
-                            <li><span>Photographer:</span> Anthony Soft</li>
+                            <li><span>Category</span></li>
                             </ul>
                         </div>
                         </div>
@@ -171,13 +164,12 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/col/8.jpg" alt="">
+                        <img src="img/gallery-img-1-3col.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature</h4>
+                            <h4>Title</h4>
                             <ul>
-                            <li><span>Category:</span> Secretaries</li>
-                            <li><span>Photographer:</span> Anthony Soft</li>
+                            <li><span>Category</span></li>
                             </ul>
                         </div>
                         </div>
@@ -185,13 +177,12 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/col/9.jpg" alt="">
+                        <img src="img/gallery-img-1-3col.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
-                            <h4>Walk In The Nature</h4>
+                            <h4>Title</h4>
                             <ul>
-                            <li><span>Category:</span> Secretaries</li>
-                            <li><span>Photographer:</span> Anthony Soft</li>
+                            <li><span>Category</span></li>
                             </ul>
                         </div>
                         </div>
@@ -208,7 +199,7 @@
             <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
-                <div class="section-heading">
+                <div class="section-heading"  style="margin-bottom: 50px">
                     <h4>Check Out the <em>Latest Events</em> this Month!</h4>
                 </div>
                 </div>
@@ -225,8 +216,9 @@
                     </div>
                     </div>
                     <div class="thumb">
-                        <img src="img/col/1.jpg" alt="">
-                        <span class="likes"><i class="fa fa-heart"></i> 256</span>
+                        <img src="img/flickr-img-1.jpg" alt="">
+                        <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
+                        <span class="likes">Category</span>
                     </div>
                     <div class="border-button">
                     <a href="contest-details.html">Browse Album</a>
@@ -241,8 +233,9 @@
                     </div>
                     </div>
                     <div class="thumb">
-                        <img src="img/col/2.jpg" alt="">
-                        <span class="likes"><i class="fa fa-heart"></i> 256</span>
+                        <img src="img/flickr-img-1.jpg" alt="">
+                        <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
+                        <span class="likes">Category</span>
                     </div>
                     <div class="border-button">
                     <a href="contest-details.html">Browse Album</a>
@@ -257,8 +250,9 @@
                     </div>
                     </div>
                     <div class="thumb">
-                        <img src="img/col/3.jpg" alt="">
-                        <span class="likes"><i class="fa fa-heart"></i> 256</span>
+                        <img src="img/flickr-img-1.jpg" alt="">
+                        <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
+                        <span class="likes">Category</span>
                     </div>
                     <div class="border-button">
                     <a href="contest-details.html">Browse Album</a>
@@ -273,8 +267,9 @@
                     </div>
                     </div>
                     <div class="thumb">
-                        <img src="img/col/4.jpg" alt="">
-                        <span class="likes"><i class="fa fa-heart"></i> 256</span>
+                        <img src="img/flickr-img-1.jpg" alt="">
+                        <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
+                        <span class="likes">Category</span>
                     </div>
                     <div class="border-button">
                     <a href="contest-details.html">Browse Album</a>
@@ -289,7 +284,7 @@
             <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                <div class="section-heading text-center">
+                <div class="section-heading text-center"  style="margin-bottom: 50px">
                     <h4>Watch our <em>Latest Coverage</em> on Youtube now</h4>
                 </div>
                 </div>
@@ -298,7 +293,7 @@
                     <div class="item">
                         <div class="closed-item">
                             <div class="thumb">
-                            <img src="img/col/7.jpg" alt="">
+                            <img src="img/blog-med-img-1.jpg" alt="">
                             </div>
                             <div class="down-content">
                             <div class="row">
@@ -312,7 +307,7 @@
                     <div class="item">
                         <div class="closed-item">
                             <div class="thumb">
-                            <img src="img/col/8.jpg" alt="">
+                            <img src="img/blog-med-img-1.jpg" alt="">
                             </div>
                             <div class="down-content">
                             <div class="row">
@@ -326,7 +321,7 @@
                     <div class="item">
                         <div class="closed-item">
                             <div class="thumb">
-                            <img src="img/col/9.jpg" alt="">
+                            <img src="img/blog-med-img-1.jpg" alt="">
                             </div>
                             <div class="down-content">
                             <div class="row">
@@ -341,7 +336,7 @@
                 </div>
                 <div class="col-lg-12">
                 <div class="border-button text-center">
-                    <a href="contests.html">Visit us on Youtube</a>
+                    <a href="https://www.youtube.com/" target="_blank">Visit us on Youtube</a>
                 </div>
                 </div>
             </div>

@@ -9,6 +9,7 @@ import DAMS_Home2 from './views/DAMS-Home2.vue';
 import DAMS_Categories from './views/DAMS-Categories.vue';
 import DAMS_Photos from './views/DAMS-Photos.vue';
 import DAMS_Videos from './views/DAMS-Videos.vue';
+import DAMS_Single_Post from './views/DAMS-Single_Post.vue';
 
 
 
@@ -51,6 +52,12 @@ const routes = [
         path: '/videos',
         name: 'videos',
         component: DAMS_Videos
+    },
+
+    {
+        path: '/post-details',
+        name: 'post-details',
+        component: DAMS_Single_Post
     },
 
     //ADMIN ROUTES

@@ -68,164 +68,79 @@
                         <h4><em>Photos and Videos</em></h4>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Secretaries</h6>
+                        <h6>Category A</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Undersecretaries</h6>
+                        <h6>Category B</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Assistant Secretaries</h6>
+                        <h6>Category C</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Regional Directors</h6>
+                        <h6>Category A</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Executive Director</h6>
+                        <h6>Category B</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Deputy Directors</h6>
+                        <h6>Category C</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Directors</h6>
+                        <h6>Category A</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Service Directors</h6>
+                        <h6>Category B</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Lecturers/Resource Speaker</h6>
+                        <h6>Category C</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Group photo</h6>
+                        <h6>Category A</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Participants</h6>
+                        <h6>Category B</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Project visits</h6>
+                        <h6>Category C</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Launch/ Events/Activities</h6>
+                        <h6>Category A</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>MOA/MOU signing</h6>
+                        <h6>Category B</h6>
                     </div>
                 </div>
-                <div class="col-lg-2 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="info">
-                        <h6>Product/Service</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Project/Program activities</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Portraits</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Speeches</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>MOA/MOU signing</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Awarding Ceremonies</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>RSTW</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>NSTW</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Lectures, Discussion, Seminar, Training</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Same day edits</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Competition/ Contests</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Program Launch</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Project Launch</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Exhibits</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Project/Program activities</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>NYSTIF</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Anniversaries</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <div class="info">
-                        <h6>Others</h6>
+                        <h6>Category C</h6>
                     </div>
                 </div>
             </div>
