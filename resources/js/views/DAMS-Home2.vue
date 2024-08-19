@@ -1,53 +1,53 @@
 <template>
     <div>
         <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <a href="index.html" class="logo">
-                            <img src="img/logo-1.png" alt="SnapX Photography Template">
-                        </a>
-                        <ul class="nav">
-                            <li>
-                                <a class="active">
-                                    <router-link to="/home" style="color: #fff !important;">
-                                        Home
-                                    </router-link>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="">
-                                    <router-link to="/categories" style="color: #fff !important;">
-                                        Categories
-                                    </router-link>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="">
-                                    <router-link to="/photos" style="color: #fff !important;">
-                                        Photos
-                                    </router-link>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="">
-                                    <router-link to="/videos" style="color: #fff !important;">
-                                        Videos
-                                    </router-link>
-                                </a>
-                            </li>
-                        </ul>   
-                        <!-- <div class="border-button">
-                            <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Sign In/Up</a>
-                        </div> -->
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                    </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <a href="index.html" class="logo">
+                                <img src="img/logo-1.png" alt="SnapX Photography Template">
+                            </a>
+                            <ul class="nav">
+                                <li>
+                                    <a class="active">
+                                        <router-link to="/home" style="color: #fff !important;">
+                                            Home
+                                        </router-link>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <a class="">
+                                        <router-link to="/categories" style="color: #fff !important;">
+                                            Categories
+                                        </router-link>
+                                    </a>
+                                </li> -->
+                                <li>
+                                    <a class="">
+                                        <router-link to="/photos" style="color: #fff !important;">
+                                            Events
+                                        </router-link>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="">
+                                        <router-link to="/videos" style="color: #fff !important;">
+                                            Coverages
+                                        </router-link>
+                                    </a>
+                                </li>
+                            </ul>   
+                            <!-- <div class="border-button">
+                                <a id="modal_trigger" href="#modal" class="sign-in-up"><i class="fa fa-user"></i> Sign In/Up</a>
+                            </div> -->
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
         </header>
         <!-- ***** Main Banner Area Start ***** -->
         <div class="main-banner">
@@ -57,23 +57,46 @@
                 <div class="header-text">
                     <h2><em>Digital Assets</em> Management System </h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id molestie lorem. Ut massa est, ornare et tristique a, fringilla quis purus. Vivamus elit ligula, accumsan vitae venenatis sed, fringilla at nisi.</p>
-                    
+                    <div class="s131">
+                        <form>
+                            <div class="inner-form">
+                            <div class="input-field first-wrap">
+                                <input id="search" type="text" placeholder="What are you looking for?" />
+                            </div>
+                            <div class="input-field second-wrap">
+                                <div class="input-select">
+                                    <b-form-select v-model="selected" :options="options"></b-form-select>
+                                <!-- <select data-trigger="" name="choices-single-defaul">
+                                    <option placeholder="">CATEGORY</option>
+                                    <option>Subject A</option>
+                                    <option>Subject B</option>
+                                    <option>Subject C</option>
+                                </select> -->
+                                </div>
+                            </div>
+                            <div class="input-field third-wrap">
+                                <button class="btn-search" type="button">SEARCH</button>
+                            </div>
+                            </div>
+                        </form>
+                    </div>    
                 </div>
                 </div>
             </div>
             </div>
         </div>
+        
         <!-- ***** Main Banner Area End ***** -->
 
 
-        <section class="featured-items" id="featured-items">
+        <!-- <section class="featured-items" id="featured-items">
             <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                 <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/gallery-img-1-3col.jpg" alt="">
+                        <img src="img/dummy/1.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -86,7 +109,7 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/gallery-img-1-3col.jpg" alt="">
+                        <img src="img/dummy/2.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -99,7 +122,7 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/gallery-img-1-3col.jpg" alt="">
+                        <img src="img/dummy/3.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -112,7 +135,7 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/gallery-img-1-3col.jpg" alt="">
+                        <img src="img/dummy/4.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -125,7 +148,7 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/gallery-img-1-3col.jpg" alt="">
+                        <img src="img/dummy/5.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -138,7 +161,7 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/gallery-img-1-3col.jpg" alt="">
+                        <img src="img/dummy/6.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -151,7 +174,7 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/gallery-img-1-3col.jpg" alt="">
+                        <img src="img/dummy/7.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -164,7 +187,7 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/gallery-img-1-3col.jpg" alt="">
+                        <img src="img/dummy/8.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -177,7 +200,7 @@
                     </div>
                     <div class="item">
                     <div class="thumb">
-                        <img src="img/gallery-img-1-3col.jpg" alt="">
+                        <img src="img/dummy/9.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -192,7 +215,7 @@
                 </div>
             </div>
             </div>
-        </section>
+        </section> -->
 
 
         <section class="popular-categories">
@@ -216,7 +239,7 @@
                     </div>
                     </div>
                     <div class="thumb">
-                        <img src="img/flickr-img-1.jpg" alt="">
+                        <img src="img/dummy/9.jpg" alt="">
                         <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
                         <span class="likes">Category</span>
                     </div>
@@ -233,7 +256,7 @@
                     </div>
                     </div>
                     <div class="thumb">
-                        <img src="img/flickr-img-1.jpg" alt="">
+                        <img src="img/dummy/8.jpg" alt="">
                         <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
                         <span class="likes">Category</span>
                     </div>
@@ -250,7 +273,7 @@
                     </div>
                     </div>
                     <div class="thumb">
-                        <img src="img/flickr-img-1.jpg" alt="">
+                        <img src="img/dummy/7.jpg" alt="">
                         <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
                         <span class="likes">Category</span>
                     </div>
@@ -267,7 +290,7 @@
                     </div>
                     </div>
                     <div class="thumb">
-                        <img src="img/flickr-img-1.jpg" alt="">
+                        <img src="img/dummy/6.jpg" alt="">
                         <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
                         <span class="likes">Category</span>
                     </div>
@@ -293,7 +316,7 @@
                     <div class="item">
                         <div class="closed-item">
                             <div class="thumb">
-                            <img src="img/blog-med-img-1.jpg" alt="">
+                            <img src="img/dummy/5.jpg" alt="">
                             </div>
                             <div class="down-content">
                             <div class="row">
@@ -307,7 +330,7 @@
                     <div class="item">
                         <div class="closed-item">
                             <div class="thumb">
-                            <img src="img/blog-med-img-1.jpg" alt="">
+                            <img src="img/dummy/4.jpg" alt="">
                             </div>
                             <div class="down-content">
                             <div class="row">
@@ -321,7 +344,7 @@
                     <div class="item">
                         <div class="closed-item">
                             <div class="thumb">
-                            <img src="img/blog-med-img-1.jpg" alt="">
+                            <img src="img/dummy/3.jpg" alt="">
                             </div>
                             <div class="down-content">
                             <div class="row">
@@ -345,8 +368,17 @@
 
     </div>
 </template>
-
-<style>
-
-</style>
-
+<script>
+  export default {
+    data() {
+      return {
+        selected: null,
+        options: [
+          { value: null, text: 'Please select an option' },
+          { value: 'a', text: 'Events' },
+          { value: 'b', text: 'Coverages' },
+        ]
+      }
+    }
+  }
+</script>

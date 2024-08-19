@@ -788,7 +788,7 @@ a.btn_red {
   
   padding: 5px 10px;
   margin-right: 10px;
-  /* float: left; */
+  float: left;
   color: #FFF;
   font-size: 16px;
   text-align: center;
@@ -923,6 +923,7 @@ a.btn_red {
   overflow: hidden;
 }
 
+
 /* 
 ---------------------------------------------
 Banner Style
@@ -936,7 +937,7 @@ Banner Style
   background-position: center center;
   background-size: cover;
   padding-top: 220px;
-  /* padding-bottom: 240px; */
+  padding-bottom: 240px;
   text-align: center;
   background-color: #2a2a2a;
 }
@@ -1012,8 +1013,6 @@ Banner Style
 featured
 ---------------------------------------------
 */ 
-
-
 
 section.featured-items {
   margin-top: -150px;
@@ -1876,7 +1875,7 @@ Contest Details Page
 .contest-details .main-content {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  padding: 50px 60px;
+  padding: 80px 60px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.06);
 }
 
@@ -2212,7 +2211,7 @@ Categories Page
 
 .testimonials {
   background-color: #f1fbff;
-  padding: 60px 0px !important;
+  padding: 120px 0px;
 }
 
 .testimonials .item {
@@ -2642,6 +2641,3 @@ body {
     display: none;
   }
 }
-
-/* CUSTOMIZED */
-

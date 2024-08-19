@@ -54,7 +54,7 @@
             <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 header-text">
-                <h2>Browse<em> Videos</em></h2>
+                <h2>Browse<em> Events</em></h2>
                 </div>
             </div>
             </div>
@@ -63,102 +63,114 @@
         <section class="portfolio">
             <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
+
                 
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
+                <div class="col-lg-4">
+                    <div class="item item-events" >
+                    <div class="closed-item">
+                        <div class="thumb" style="margin-bottom: -10px">
+                        <img src="img/dummy/1.jpg" alt="">
+                        <span class="winner">
+                            <em>Category:</em> 
+                            <a class="active">
+                                <router-link to="/photos">
+                                    Secretaries
+                                </router-link>
+                            </a>
+                        </span>
+                        </div>
+                        <div class="down-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4>Title Here </h4>
+                            </div>
+                            <div class="col-12" style="margin-bottom: 10px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur metus leo...
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col 12">
+                                <b-badge pill variant="secondary">Tag 1</b-badge>
+                                <b-badge pill variant="secondary">Tag 2</b-badge>
+                                <b-badge pill variant="secondary">Tag 3</b-badge>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:10px; float: right">
+                            <div class="col-lg-12">
+                                <div class="main-button">
+                                    <a href="contest-details.html">Browse Album</a>
+                                </div>
+                            </div>
                         </div>
                         </div>
                     </div>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
+                <div class="col-lg-4">
+                    <div class="item item-events" >
+                    <div class="closed-item">
+                        <div class="thumb" style="margin-bottom: -10px">
+                        <img src="img/dummy/2.jpg" alt="">
+                        <span class="winner">
+                            <em>Category:</em> 
+                            <a class="active">
+                                <router-link to="/photos">
+                                    Secretaries
+                                </router-link>
+                            </a>
+                        </span>
+                        </div>
+                        <div class="down-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4>Title Here </h4>
+                            </div>
+                            <!-- <div class="col-5">
+                                <h4 class="pics">320 Pictures</h4>
+                            </div> -->
+                        </div>
+                        <div class="row">
+                            <div class="col 7">
+                                <b-badge pill variant="secondary">Tag 1</b-badge>
+                                <b-badge pill variant="secondary">Tag 2</b-badge>
+                                <b-badge pill variant="secondary">Tag 3</b-badge>
+                            </div>
                         </div>
                         </div>
                     </div>
+                    </div>
                 </div>
-                
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                                <li>
-                                    <a>
-                                        <router-link to="/photos" style="color: #fff !important;">
-                                            <i class="fa fa-eye"></i>
-                                        </router-link>
-                                    </a>
-                                </li>
-                            </ul>
+                <div class="col-lg-4">
+                    <div class="item item-events" >
+                    <div class="closed-item">
+                        <div class="thumb" style="margin-bottom: -10px">
+                        <img src="img/dummy/3.jpg" alt="">
+                        <span class="winner"><em>Category:</em> Secretaries</span>
+                        </div>
+                        <div class="down-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4>Title Here </h4>
+                            </div>
+                            <!-- <div class="col-5">
+                                <h4 class="pics">320 Pictures</h4>
+                            </div> -->
+                        </div>
+                        <div class="row">
+                            <div class="col 7">
+                                <b-badge pill variant="secondary">Tag 1</b-badge>
+                                <b-badge pill variant="secondary">Tag 2</b-badge>
+                                <b-badge pill variant="secondary">Tag 3</b-badge>
+                            </div>
                         </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-12">
                 <div class="main-button">
-                    <a href="#">Visit our Youtube channel</a>
+                    <a href="#">Load More Photos</a>
                 </div>
                 </div>
             </div>
@@ -324,6 +336,8 @@
 </template>
 
 <style>
-
+    .item-events{
+    margin-bottom: 20px !important;
+    }
 </style>
 

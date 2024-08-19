@@ -33,7 +33,7 @@ const routes = [
     {
         path: '/home',
         name: 'home',
-        component: DAMS_Home
+        component: DAMS_Home2
     },
 
     {
@@ -94,7 +94,7 @@ const routes = [
     {
         path: '/',
         name: '',
-        component: DAMS_Home2
+        component: DAMS_Home
     }
 ];
 
