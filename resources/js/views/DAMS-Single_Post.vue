@@ -59,11 +59,11 @@
             </div>
             </div>
         </div> -->
-        <section class="testimonials">
+        <section class="">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                    <div class="section-heading text-center">
+                    <div class="section-heading text-center" style="margin-bottom: 15px">
                         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
                     </div>
                     </div>
@@ -110,12 +110,13 @@
                     <div class="col-lg-12">
                         <div class="main-content">
                             <h6>Description</h6>
-                            <p>SnapX Photography is a professional website template with 5 different HTML pages for maximum customizations. This is based on Bootstrap v5.1.3 CSS framework. Please visit TemplateMo website to see more CSS templates.</p>
-                            <p>You are allowed to 100% freely use this SnapX Template for your commercial websites. You are not allowed to redistribute the template ZIP file on any other Free CSS Template collection websites.</p>
-                            <h6 class="second-title">Picture Should Not Have</h6>
-                            <p>We hope this template is very useful for your website development. If you wish to <a rel="nofollow" href="https://templatemo.com/contact" target="_blank">support TemplateMo</a>, you may make a small amount of donation via PayPal.</p>
-                            <p>If you need the PSD source files of this template, please feel free to contact TemplateMo. Our supporters are welcome.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris augue est, sodales vel sem nec, eleifend laoreet nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In quis nisl egestas, dapibus nisi ac, suscipit tellus. Vivamus ac ex cursus, maximus orci eget, tempus tortor. Nunc non ante eu metus efficitur condimentum vitae ac ex. Nulla a tellus magna.</p>
                             
+                            <h6 class="second-title">Tags</h6>
+                            <b-badge variant="secondary">Tag 1</b-badge>
+                            <b-badge variant="secondary">Tag 2</b-badge>
+                            <b-badge variant="secondary">Tag 3</b-badge>
+                            <b-badge variant="secondary">Tag 4</b-badge>
                         </div>
                     </div>
                 </div>

@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
+                        <img src="img/dummy/1.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -79,36 +79,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
+                        <img src="img/dummy/2.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -123,7 +94,36 @@
                 
                 <div class="col-lg-6">
                     <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
+                        <img src="img/dummy/3.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Title</h4>
+                            <span>Category</span>
+                            <ul>
+                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="thumb">
+                        <img src="img/dummy/4.jpg" alt="">
+                        <div class="hover-effect">
+                        <div class="content">
+                            <h4>Title</h4>
+                            <span>Category</span>
+                            <ul>
+                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="thumb">
+                        <img src="img/dummy/5.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="thumb">
-                        <img src="img/blog-med-img-1.jpg" alt="">
+                        <img src="img/dummy/6.jpg" alt="">
                         <div class="hover-effect">
                         <div class="content">
                             <h4>Title</h4>

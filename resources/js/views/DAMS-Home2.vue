@@ -75,7 +75,13 @@
                                 </div>
                             </div>
                             <div class="input-field third-wrap">
-                                <button class="btn-search" type="button">SEARCH</button>
+                                <button class="btn-search" type="button">
+                                    <a class="active">
+                                        <router-link to="/search-result" style="color: #fff !important;">
+                                            Search
+                                        </router-link>
+                                    </a>
+                                </button>
                             </div>
                             </div>
                         </form>

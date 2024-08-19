@@ -10,6 +10,7 @@ import DAMS_Categories from './views/DAMS-Categories.vue';
 import DAMS_Photos from './views/DAMS-Photos.vue';
 import DAMS_Videos from './views/DAMS-Videos.vue';
 import DAMS_Single_Post from './views/DAMS-Single_Post.vue';
+import DAMS_Search_Result from './views/DAMS_Search_Result.vue'
 
 
 
@@ -58,6 +59,12 @@ const routes = [
         path: '/post-details',
         name: 'post-details',
         component: DAMS_Single_Post
+    },
+
+    {
+        path: '/search-result',
+        name: 'search-result',
+        component: DAMS_Search_Result
     },
 
     //ADMIN ROUTES
