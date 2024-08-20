@@ -54,272 +54,104 @@
             <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 header-text">
-                <h2>Browse<em> Videos</em></h2>
+                <h2>Browse<em> Coverages</em></h2>
                 </div>
             </div>
             </div>
         </div>
 
-        <section class="portfolio">
+        <section class="photos-videos">
             <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/dummy/1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="img/dummy/31.jpg" alt="">
+                                <div class="play-button">
+                                    <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="down-content">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h2>Lorem ipsum dolor sit amet</h2>
+                                    </div>
+                                    <div class="col-5">
+                                        <h6>Category: Videos</h6>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="img/dummy/33.jpg" alt="">
+                                <div class="play-button">
+                                    <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="down-content">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h2>Lorem ipsum dolor sit amet</h2>
+                                    </div>
+                                    <div class="col-5">
+                                        <h6>Category: Videos</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="img/dummy/28.png" alt="">
+                                <div class="play-button">
+                                    <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="down-content">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h2>Lorem ipsum dolor sit amet</h2>
+                                    </div>
+                                    <div class="col-5">
+                                        <h6>Category: Videos</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="img/dummy/36.jpg" alt="">
+                                <div class="play-button">
+                                    <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                            <div class="down-content">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <h2>Lorem ipsum dolor sit amet</h2>
+                                    </div>
+                                    <div class="col-5">
+                                        <h6>Category: Videos</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12" style="margin-bottom: 50px">
+                        <div class="border-button text-center">
+                            <a href="https://www.youtube.com/" target="_blank">Visit us on Youtube</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/dummy/2.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/dummy/3.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/dummy/4.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/dummy/5.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                                <li>
-                                    <a>
-                                        <router-link to="/photos" style="color: #fff !important;">
-                                            <i class="fa fa-eye"></i>
-                                        </router-link>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="thumb">
-                        <img src="img/dummy/6.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <span>Category</span>
-                            <ul>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-lg-12">
-                <div class="main-button">
-                    <a href="#">Visit our Youtube channel</a>
-                </div>
-                </div>
-            </div>
             </div>
         </section>
 
-        <!-- <section class="portfolio">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                <div class="thumb">
-                    <img src="img/col/1.jpg" alt="">
-                    <div class="hover-effect">
-                    <div class="content">
-                        <h4>Walk In the Beach</h4>
-                        <span>Ranked: <em>2nd</em></span>
-                        <span>Award Won: <em>None</em></span>
-                        <ul>
-                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-5">
-                <div class="thumb">
-                    <img src="img/col/2.jpg" alt="">
-                    <div class="hover-effect">
-                    <div class="content">
-                        <h4>Walk In The Nature</h4>
-                        <span>Ranked: <em>3rd</em></span>
-                        <span>Award Won: <em>EOS R3</em></span>
-                        <ul>
-                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-4">
-                <div class="thumb">
-                    <img src="img/col/3.jpg" alt="">
-                    <div class="hover-effect">
-                    <div class="content">
-                        <h4>Walk In The Forest</h4>
-                        <span>Ranked: <em>4th</em></span>
-                        <span>Award: <em>EOS R7</em></span>
-                        <ul>
-                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-3">
-                <div class="thumb">
-                    <img src="img/col/4.jpg" alt="">
-                    <div class="hover-effect">
-                    <div class="content">
-                        <h4>Forest Nature</h4>
-                        <span>Ranked: <em>2nd</em></span>
-                        <span>Award: <em>EOS R3</em></span>
-                        <ul>
-                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-6">
-                <div class="thumb">
-                    <img src="img/col/5.jpg" alt="">
-                    <div class="hover-effect">
-                    <div class="content">
-                        <h4>Fly thru the river</h4>
-                        <span>Ranked: <em>1st</em></span>
-                        <span>Award: <em>EOS R1</em></span>
-                        <ul>
-                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-3">
-                <div class="thumb">
-                    <img src="img/col/6.jpg" alt="">
-                    <div class="hover-effect">
-                    <div class="content">
-                        <h4>Rocky Mountain</h4>
-                        <span>Ranked: <em>2nd</em></span>
-                        <span>Award Won: <em>None</em></span>
-                        <ul>
-                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-5">
-                <div class="thumb">
-                    <img src="img/col/7.jpg" alt="">
-                    <div class="hover-effect">
-                    <div class="content">
-                        <h4>Rocky Mountain . Part 2</h4>
-                        <span>Ranked: <em>2nd</em></span>
-                        <span>Award Won: <em>None</em></span>
-                        <ul>
-                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-3">
-                <div class="thumb">
-                    <img src="img/col/8.jpg" alt="">
-                    <div class="hover-effect">
-                    <div class="content">
-                        <h4>Blue Lake Nature</h4>
-                        <span>Ranked: <em>4th</em></span>
-                        <span>Award Won: <em>None</em></span>
-                        <ul>
-                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-4">
-                <div class="thumb">
-                    <img src="img/col/9.jpg" alt="">
-                    <div class="hover-effect">
-                    <div class="content">
-                        <h4>Walk In The Forest</h4>
-                        <span>Ranked: <em>3rd</em></span>
-                        <span>Award Won: <em>None</em></span>
-                        <ul>
-                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                        <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="col-lg-12">
-                <div class="main-button">
-                    <a href="#">Load More Photos</a>
-                </div>
-                </div>
-            </div>
-            </div>
-        </section> -->
     </div>
 </template>
 

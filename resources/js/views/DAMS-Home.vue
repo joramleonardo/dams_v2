@@ -66,21 +66,13 @@
                             <div class="input-field second-wrap">
                                 <div class="input-select">
                                     <b-form-select v-model="selected" :options="options"></b-form-select>
-                                <!-- <select data-trigger="" name="choices-single-defaul">
-                                    <option placeholder="">CATEGORY</option>
-                                    <option>Subject A</option>
-                                    <option>Subject B</option>
-                                    <option>Subject C</option>
-                                </select> -->
                                 </div>
                             </div>
                             <div class="input-field third-wrap">
                                 <button class="btn-search" type="button">
-                                    <a class="active">
                                         <router-link to="/search-result" style="color: #fff !important;">
                                             Search
                                         </router-link>
-                                    </a>
                                 </button>
                             </div>
                             </div>
@@ -91,138 +83,6 @@
             </div>
             </div>
         </div>
-        
-        <!-- ***** Main Banner Area End ***** -->
-
-
-        <!-- <section class="featured-items" id="featured-items">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                <div class="owl-features owl-carousel" style="position: relative; z-index: 5;">
-                    <div class="item">
-                    <div class="thumb">
-                        <img src="img/dummy/1.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <ul>
-                            <li><span>Category</span></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <div class="thumb">
-                        <img src="img/dummy/2.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <ul>
-                            <li><span>Category</span></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <div class="thumb">
-                        <img src="img/dummy/3.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <ul>
-                            <li><span>Category</span></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <div class="thumb">
-                        <img src="img/dummy/4.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <ul>
-                            <li><span>Category</span></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <div class="thumb">
-                        <img src="img/dummy/5.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <ul>
-                            <li><span>Category</span></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <div class="thumb">
-                        <img src="img/dummy/6.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <ul>
-                            <li><span>Category</span></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <div class="thumb">
-                        <img src="img/dummy/7.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <ul>
-                            <li><span>Category</span></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <div class="thumb">
-                        <img src="img/dummy/8.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <ul>
-                            <li><span>Category</span></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="item">
-                    <div class="thumb">
-                        <img src="img/dummy/9.jpg" alt="">
-                        <div class="hover-effect">
-                        <div class="content">
-                            <h4>Title</h4>
-                            <ul>
-                            <li><span>Category</span></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </section> -->
-
 
         <section class="popular-categories">
             <div class="container-fluid">
@@ -238,21 +98,22 @@
                 </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                <div class="popular-item">
-                    <div class="top-content">
-                    <div class="right">
-                        <h4>Nam finibus, diam at egestas semper</h4>
+                    <div class="popular-item">
+                        <div class="top-content">
+                            <div class="right">
+                                <h4>Nam finibus, diam at egestas semper</h4>
+                            </div>
+                        </div>
+                        <div class="thumb">
+                            <img src="img/dummy/9.jpg" alt="">
+                            <span class="likes">Category</span>
+                        </div>
+                        <div class="border-button">
+                            <router-link to="/post-details">
+                                Browse Album
+                            </router-link>
+                        </div>
                     </div>
-                    </div>
-                    <div class="thumb">
-                        <img src="img/dummy/9.jpg" alt="">
-                        <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
-                        <span class="likes">Category</span>
-                    </div>
-                    <div class="border-button">
-                    <a href="contest-details.html">Browse Album</a>
-                    </div>
-                </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                 <div class="popular-item">
@@ -263,11 +124,12 @@
                     </div>
                     <div class="thumb">
                         <img src="img/dummy/8.jpg" alt="">
-                        <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
                         <span class="likes">Category</span>
                     </div>
                     <div class="border-button">
-                    <a href="contest-details.html">Browse Album</a>
+                        <router-link to="/post-details">
+                            Browse Album
+                        </router-link>
                     </div>
                 </div>
                 </div>
@@ -280,11 +142,12 @@
                     </div>
                     <div class="thumb">
                         <img src="img/dummy/7.jpg" alt="">
-                        <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
                         <span class="likes">Category</span>
                     </div>
                     <div class="border-button">
-                    <a href="contest-details.html">Browse Album</a>
+                        <router-link to="/post-details">
+                            Browse Album
+                        </router-link>
                     </div>
                 </div>
                 </div>
@@ -292,16 +155,17 @@
                 <div class="popular-item">
                     <div class="top-content">
                     <div class="right">
-                        <h4>Duis maximus vulputate diam in convallis</h4>
+                        <h4>Duis maximus vulputate convallis</h4>
                     </div>
                     </div>
                     <div class="thumb">
                         <img src="img/dummy/6.jpg" alt="">
-                        <!-- <span class="likes"><i class="fa fa-heart"></i> 256</span> -->
                         <span class="likes">Category</span>
                     </div>
                     <div class="border-button">
-                    <a href="contest-details.html">Browse Album</a>
+                        <router-link to="/post-details">
+                            Browse Album
+                        </router-link>
                     </div>
                 </div>
                 </div>
@@ -380,7 +244,7 @@
       return {
         selected: null,
         options: [
-          { value: null, text: 'Please select an option' },
+          { value: null, text: 'Select Type' },
           { value: 'a', text: 'Events' },
           { value: 'b', text: 'Coverages' },
         ]
@@ -388,3 +252,9 @@
     }
   }
 </script>
+
+<style>
+    .custom-select{
+        height: 68px !important
+    }
+</style>
